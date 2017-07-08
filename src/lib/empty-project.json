@@ -12,9 +12,9 @@
             "costumeName": "Elephant Data Playground",
             "baseLayerID": 2,
             "baseLayerMD5": "s_7a875d881bf0e4ec4404fd7cb8c75aa2.png",
-            "bitmapResolution": 1,
-            "rotationCenterX": 732,
-            "rotationCenterY": 466
+            "bitmapResolution": 2,
+            "rotationCenterX": 537,
+            "rotationCenterY": 341
         }],
     "currentCostumeIndex": 0,
     "penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
@@ -22,7 +22,7 @@
     "tempoBPM": 60,
     "videoAlpha": 0.5,
     "children": [{
-            "objName": "Sprite1",
+            "objName": "Leopard",
             "sounds": [{
                     "soundName": "meow",
                     "soundID": 0,
@@ -36,53 +36,53 @@
                     "baseLayerID": -1,
                     "baseLayerMD5": "1_90dd01fdc4a8f51075c0234d2febb5b7.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 100,
-                    "rotationCenterY": 100
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
                 },
                 {
                     "costumeName": "Leopard 2",
                     "baseLayerID": -1,
                     "baseLayerMD5": "2_965524b5d8b4e0fd3a3aff1cc5faf480.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 100,
-                    "rotationCenterY": 100
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
                 },
                 {
                     "costumeName": "Leopard 3",
                     "baseLayerID": -1,
                     "baseLayerMD5": "3_771c647a66cd5f72e826033bdbf49818.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 100,
-                    "rotationCenterY": 100
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
                 },
                 {
                     "costumeName": "Leopard 4",
                     "baseLayerID": -1,
                     "baseLayerMD5": "4_5f804ced731bbeba6f291539612dd227.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 100,
-                    "rotationCenterY": 100
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
                 },
                 {
                     "costumeName": "Leopard 5",
                     "baseLayerID": -1,
                     "baseLayerMD5": "5_27180a939a8b3905381ae675b9ff78f3.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 100,
-                    "rotationCenterY": 100
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
                 },
                 {
                     "costumeName": "Leopard 6",
                     "baseLayerID": -1,
                     "baseLayerMD5": "6_53e8380dba8474e0cf52d1c704223c0b.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 100,
-                    "rotationCenterY": 100
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
                 }],
             "currentCostumeIndex": 0,
             "scratchX": 0,
-            "scratchY": 0,
-            "scale": 1,
+            "scratchY": -100,
+            "scale": 0.5,
             "direction": 90,
             "rotationStyle": "normal",
             "isDraggable": false,
