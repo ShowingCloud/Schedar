@@ -2,6 +2,7 @@ import ScratchStorage from 'scratch-storage';
 
 const PROJECT_SERVER = 'https://cdn.projects.scratch.mit.edu';
 const ASSET_SERVER = 'https://cdn.assets.scratch.mit.edu';
+const ELEPHANT_DATA_SERVER = 'https://elephant-data.oss-cn-shanghai.aliyuncs.com';
 
 /**
  * Wrapper for ScratchStorage which adds default web sources.
@@ -18,6 +19,10 @@ class Storage extends ScratchStorage {
                     `${PROJECT_SERVER}/internalapi/project/${projectId}/get/${revision}` :
                     `${PROJECT_SERVER}/internalapi/project/${projectId}/get/`;
             }
+        );
+        this.addWebSource(
+            [this.AssetType.ImageVector, this.AssetType.ImageBitmap, this.AssetType.Sound],
+            asset => `${ELEPHANT_DATA_SERVER}/${asset.assetId}.${asset.dataFormat}`
         );
         this.addWebSource(
             [this.AssetType.ImageVector, this.AssetType.ImageBitmap, this.AssetType.Sound],
