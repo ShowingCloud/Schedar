@@ -1,13 +1,6 @@
 {
     "objName": "Stage",
-    "sounds": [{
-            "soundName": "pop",
-            "soundID": 1,
-            "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
-            "sampleCount": 258,
-            "rate": 11025,
-            "format": ""
-        }],
+    "sounds": [],
     "costumes": [{
             "costumeName": "Elephant Data Playground",
             "baseLayerID": 2,
@@ -23,14 +16,7 @@
     "videoAlpha": 0.5,
     "children": [{
             "objName": "Leopard",
-            "sounds": [{
-                    "soundName": "meow",
-                    "soundID": 0,
-                    "md5": "83c36d806dc92327b9e7049a565c6bff.wav",
-                    "sampleCount": 18688,
-                    "rate": 22050,
-                    "format": ""
-                }],
+            "sounds": [],
             "costumes": [{
                     "costumeName": "Leopard 1",
                     "baseLayerID": -1,
