@@ -2,6 +2,7 @@ import bindAll from 'lodash.bindall';
 import PropTypes from 'prop-types';
 import React from 'react';
 import VM from 'scratch-vm';
+import xhr from 'xhr';
 
 import spriteLibraryContent from '../lib/libraries/sprites.json';
 
@@ -18,6 +19,15 @@ class SpriteLibrary extends React.PureComponent {
             'startRotatingCostumes',
             'stopRotatingCostumes'
         ]);
+
+        xhr({
+            uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_sprites.json`,
+            json: true
+        }, (err, res, body) => {
+            if (!err && body)
+                this.state.sprites = body.concat (spriteLibraryContent);
+        });
+
         this.state = {
             activeSprite: null,
             costumeIndex: 0,

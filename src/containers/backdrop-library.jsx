@@ -2,6 +2,7 @@ import bindAll from 'lodash.bindall';
 import PropTypes from 'prop-types';
 import React from 'react';
 import VM from 'scratch-vm';
+import xhr from 'xhr';
 
 import backdropLibraryContent from '../lib/libraries/backdrops.json';
 import LibraryComponent from '../components/library/library.jsx';
@@ -13,6 +14,15 @@ class BackdropLibrary extends React.Component {
         bindAll(this, [
             'handleItemSelect'
         ]);
+
+        this.fullBackdropLibraryContent = [];
+        xhr({
+            uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_backdrops.json`,
+            json: true
+        }, (err, res, body) => {
+            if (!err && body)
+                this.fullBackdropLibraryContent = body.concat (backdropLibraryContent);
+        });
     }
     handleItemSelect (item) {
         const vmBackdrop = {
@@ -27,7 +37,7 @@ class BackdropLibrary extends React.Component {
     render () {
         return (
             <LibraryComponent
-                data={backdropLibraryContent}
+                data={this.fullBackdropLibraryContent}
                 title="Backdrop Library"
                 visible={this.props.visible}
                 onItemSelected={this.handleItemSelect}
