@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Leopard",
+		"md5": "1_90dd01fdc4a8f51075c0234d2febb5b7.png",
+		"addons": 1,
+        "type": "sprite",
+        "tags": [
+            "animals",
+            "drawing"
+        ],
+        "info": [
+            0,
+            6,
+            0
+        ],
+        "json": {
+            "objName": "Leopard",
+            "costumes": [
+                {
+                    "costumeName": "Leopard 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "1_90dd01fdc4a8f51075c0234d2febb5b7.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
+                },
+                {
+                    "costumeName": "Leopard 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "2_965524b5d8b4e0fd3a3aff1cc5faf480.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
+                },
+                {
+                    "costumeName": "Leopard 3",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "3_771c647a66cd5f72e826033bdbf49818.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
+                },
+                {
+                    "costumeName": "Leopard 4",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "4_5f804ced731bbeba6f291539612dd227.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
+                },
+                {
+                    "costumeName": "Leopard 5",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "5_27180a939a8b3905381ae675b9ff78f3.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
+                },
+                {
+                    "costumeName": "Leopard 6",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "6_53e8380dba8474e0cf52d1c704223c0b.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 256,
+                    "rotationCenterY": 109
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 0.5,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    }
+]

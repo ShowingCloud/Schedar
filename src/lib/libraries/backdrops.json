@@ -1,21 +1,5 @@
 [
     {
-        "name": "Elephant Data Playground",
-        "md5": "s_7a875d881bf0e4ec4404fd7cb8c75aa2.png",
-		"addons": 1,
-        "type": "backdrop",
-        "tags": [
-            "outdoors",
-			"nature",
-			"flying"
-        ],
-        "info": [
-            1074,
-            683,
-            2
-            ]
-    },
-    {
         "name": "atom playground",
         "md5": "dd85f581a3ba8d590543bd6e87d6fd14.jpg",
         "type": "backdrop",
