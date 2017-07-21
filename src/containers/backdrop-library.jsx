@@ -53,4 +53,4 @@ BackdropLibrary.propTypes = {
     vm: PropTypes.instanceOf(VM).isRequired
 };
 
-module.exports = BackdropLibrary;
+export default BackdropLibrary;

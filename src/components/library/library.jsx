@@ -100,4 +100,4 @@ LibraryComponent.propTypes = {
     visible: PropTypes.bool.isRequired
 };
 
-module.exports = LibraryComponent;
+export default LibraryComponent;
