@@ -25,7 +25,7 @@ class SpriteLibrary extends React.PureComponent {
             json: true
         }, (err, res, body) => {
             if (!err && body) {
-                this.getState({sprites: body.concat(spriteLibraryContent)});
+                this.setState({sprites: body.concat(spriteLibraryContent)});
             }
         });
 
