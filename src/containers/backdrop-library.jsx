@@ -20,8 +20,9 @@ class BackdropLibrary extends React.Component {
             uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_backdrops.json`,
             json: true
         }, (err, res, body) => {
-            if (!err && body)
-                this.fullBackdropLibraryContent = body.concat (backdropLibraryContent);
+            if (!err && body) {
+                this.fullBackdropLibraryContent = body.concat(backdropLibraryContent);
+            }
         });
     }
     handleItemSelect (item) {

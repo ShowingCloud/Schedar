@@ -15,13 +15,14 @@ class CostumeLibrary extends React.PureComponent {
             'handleItemSelected'
         ]);
 
-		this.fullCostumeLibraryContent = [];
+        this.fullCostumeLibraryContent = [];
         xhr({
             uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_costumes.json`,
             json: true
         }, (err, res, body) => {
-            if (!err && body)
-                this.fullCostumeLibraryContent = body.concat (costumeLibraryContent);
+            if (!err && body) {
+                this.fullCostumeLibraryContent = body.concat(costumeLibraryContent);
+            }
         });
     }
     handleItemSelected (item) {
