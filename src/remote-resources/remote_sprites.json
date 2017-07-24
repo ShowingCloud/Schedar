@@ -1,7 +1,53 @@
 [
     {
+        "name": "ELephant Data",
+		"md5": "costume11.png-fce75bc0196dca26f50e8380897a4d5a.png",
+		"addons": 1,
+        "type": "sprite",
+        "tags": [
+            "animals",
+            "drawing"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Elephant Data",
+            "costumes": [
+                {
+                    "costumeName": "Elephant Data 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "costume11.png-fce75bc0196dca26f50e8380897a4d5a.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 255,
+                    "rotationCenterY": 225
+                },
+                {
+                    "costumeName": "Elephant Data 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "costume12.png-17735ac398b990d576fd752fc6110371.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 325,
+                    "rotationCenterY": 212
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 0.5,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
         "name": "Leopard",
-		"md5": "1_90dd01fdc4a8f51075c0234d2febb5b7.png",
+		"md5": "costume01.png-9b9388ea69f4e5eda93eea7b646bd0aa.png",
 		"addons": 1,
         "type": "sprite",
         "tags": [
@@ -19,7 +65,7 @@
                 {
                     "costumeName": "Leopard 1",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "1_90dd01fdc4a8f51075c0234d2febb5b7.png",
+                    "baseLayerMD5": "costume01.png-9b9388ea69f4e5eda93eea7b646bd0aa.png",
                     "bitmapResolution": 1,
                     "rotationCenterX": 256,
                     "rotationCenterY": 109
@@ -27,7 +73,7 @@
                 {
                     "costumeName": "Leopard 2",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "2_965524b5d8b4e0fd3a3aff1cc5faf480.png",
+                    "baseLayerMD5": "costume02.png-be3c5741002a59fe69ba5042efb530f6.png",
                     "bitmapResolution": 1,
                     "rotationCenterX": 256,
                     "rotationCenterY": 109
@@ -35,7 +81,7 @@
                 {
                     "costumeName": "Leopard 3",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "3_771c647a66cd5f72e826033bdbf49818.png",
+                    "baseLayerMD5": "costume03.png-4ea66acf36aa10213f378bde861bff5e.png",
                     "bitmapResolution": 1,
                     "rotationCenterX": 256,
                     "rotationCenterY": 109
@@ -43,7 +89,7 @@
                 {
                     "costumeName": "Leopard 4",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "4_5f804ced731bbeba6f291539612dd227.png",
+                    "baseLayerMD5": "costume04.png-a1a9f4f013649c15971d5494bfd43ad0.png",
                     "bitmapResolution": 1,
                     "rotationCenterX": 256,
                     "rotationCenterY": 109
@@ -51,7 +97,7 @@
                 {
                     "costumeName": "Leopard 5",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "5_27180a939a8b3905381ae675b9ff78f3.png",
+                    "baseLayerMD5": "costume05.png-9011c22e7e5422197001f8d3b7be19c3.png",
                     "bitmapResolution": 1,
                     "rotationCenterX": 256,
                     "rotationCenterY": 109
@@ -59,7 +105,7 @@
                 {
                     "costumeName": "Leopard 6",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "6_53e8380dba8474e0cf52d1c704223c0b.png",
+                    "baseLayerMD5": "costume06.png-6a5f5a1772bcfbd3aa0b389f5705a14a.png",
                     "bitmapResolution": 1,
                     "rotationCenterX": 256,
                     "rotationCenterY": 109

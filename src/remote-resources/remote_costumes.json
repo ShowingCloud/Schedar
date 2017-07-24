@@ -1,10 +1,38 @@
 [
     {
         "info": [
+            510,
+            450
+        ],
+        "md5": "costume11.png-fce75bc0196dca26f50e8380897a4d5a.png",
+		"addons": 1,
+        "type": "costume",
+        "name": "Elephant Data 1",
+        "tags": [
+            "animals",
+            "drawing"
+        ]
+    },
+    {
+        "info": [
             513,
             219
         ],
-        "md5": "1_90dd01fdc4a8f51075c0234d2febb5b7.png",
+        "md5": "costume12.png-17735ac398b990d576fd752fc6110371.png",
+		"addons": 1,
+        "type": "costume",
+        "name": "Elephant Data 2",
+        "tags": [
+            "animals",
+            "drawing"
+        ]
+    },
+    {
+        "info": [
+            513,
+            219
+        ],
+        "md5": "costume01.png-9b9388ea69f4e5eda93eea7b646bd0aa.png",
 		"addons": 1,
         "type": "costume",
         "name": "Leopard 1",
@@ -18,7 +46,7 @@
             513,
             219
         ],
-        "md5": "2_965524b5d8b4e0fd3a3aff1cc5faf480.png",
+        "md5": "costume02.png-be3c5741002a59fe69ba5042efb530f6.png",
 		"addons": 1,
         "type": "costume",
         "name": "Leopard 2",
@@ -32,7 +60,7 @@
             513,
             219
         ],
-        "md5": "3_771c647a66cd5f72e826033bdbf49818.png",
+        "md5": "costume03.png-4ea66acf36aa10213f378bde861bff5e.png",
 		"addons": 1,
         "type": "costume",
         "name": "Leopard 3",
@@ -46,7 +74,7 @@
             513,
             219
         ],
-        "md5": "4_5f804ced731bbeba6f291539612dd227.png",
+        "md5": "costume04.png-a1a9f4f013649c15971d5494bfd43ad0.png",
 		"addons": 1,
         "type": "costume",
         "name": "Leopard 4",
@@ -60,7 +88,7 @@
             513,
             219
         ],
-        "md5": "5_27180a939a8b3905381ae675b9ff78f3.png",
+        "md5": "costume05.png-9011c22e7e5422197001f8d3b7be19c3.png",
 		"addons": 1,
         "type": "costume",
         "name": "Leopard 5",
@@ -74,7 +102,7 @@
             513,
             219
         ],
-        "md5": "6_53e8380dba8474e0cf52d1c704223c0b.png",
+        "md5": "costume06.png-6a5f5a1772bcfbd3aa0b389f5705a14a.png",
 		"addons": 1,
         "type": "costume",
         "name": "Leopard 6",
