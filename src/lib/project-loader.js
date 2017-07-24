@@ -16,6 +16,19 @@ class ProjectLoader {
             callback(null, body);
         });
     }
+    loadEmptyProject (callback) {
+        callback = callback || (err => log.error(err));
+        xhr({
+            uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_empty_project.json`,
+            json: true
+        }, (err, res, body) => {
+            if (!err && body) {
+                this.DEFAULT_PROJECT_DATA = body;
+                ProjectLoader.DEFAULT_PROJECT_DATA = body;
+                callback(body);
+            }
+        });
+    }
 }
 
 ProjectLoader.DEFAULT_PROJECT_DATA = emptyProject;

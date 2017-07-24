@@ -21,6 +21,11 @@ class App extends React.Component {
             projectId: null,
             projectData: this.fetchProjectId().length ? null : JSON.stringify(ProjectLoader.DEFAULT_PROJECT_DATA)
         };
+        if (this.fetchProjectId().length < 1) {
+            ProjectLoader.loadEmptyProject(body => {
+                this.setState({projectData: JSON.stringify(body)});
+            });
+        }
     }
     componentDidMount () {
         window.addEventListener('hashchange', this.updateProject);
@@ -36,6 +41,9 @@ class App extends React.Component {
         const projectId = this.fetchProjectId();
         if (projectId !== this.state.projectId) {
             if (projectId.length < 1) {
+                ProjectLoader.loadEmptyProject(body => {
+                    this.setState({projectData: JSON.stringify(body)});
+                });
                 return this.setState({
                     projectId: projectId,
                     projectData: JSON.stringify(ProjectLoader.DEFAULT_PROJECT_DATA)
