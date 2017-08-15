@@ -5,7 +5,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 
 import {computeChunkedRMS} from '../lib/audio/audio-util.js';
-
+import AudioEffects from '../lib/audio/audio-effects.js';
 import SoundEditorComponent from '../components/sound-editor/sound-editor.jsx';
 import AudioBufferPlayer from '../lib/audio/audio-buffer-player.js';
 
@@ -21,7 +21,10 @@ class SoundEditor extends React.Component {
             'handleActivateTrim',
             'handleUpdateTrimEnd',
             'handleUpdateTrimStart',
-            'handleEffect'
+            'handleEffect',
+            'handleUndo',
+            'handleRedo',
+            'submitNewSamples'
         ]);
         this.state = {
             chunkLevels: computeChunkedRMS(this.props.samples),
@@ -29,12 +32,17 @@ class SoundEditor extends React.Component {
             trimStart: null,
             trimEnd: null
         };
+
+        this.redoStack = [];
+        this.undoStack = [];
     }
     componentDidMount () {
         this.audioBufferPlayer = new AudioBufferPlayer(this.props.samples, this.props.sampleRate);
     }
     componentWillReceiveProps (newProps) {
         if (newProps.soundId !== this.props.soundId) { // A different sound has been selected
+            this.redoStack = [];
+            this.undoStack = [];
             this.resetState(newProps.samples, newProps.sampleRate);
         }
     }
@@ -51,7 +59,11 @@ class SoundEditor extends React.Component {
             trimEnd: null
         });
     }
-    submitNewSamples (samples, sampleRate) {
+    submitNewSamples (samples, sampleRate, skipUndo) {
+        if (!skipUndo) {
+            this.redoStack = [];
+            this.undoStack.push(this.props.samples.slice(0));
+        }
         this.resetState(samples, sampleRate);
         this.props.onUpdateSoundBuffer(
             this.props.soundIndex,
@@ -98,12 +110,35 @@ class SoundEditor extends React.Component {
     effectFactory (name) {
         return () => this.handleEffect(name);
     }
-    handleEffect (/* name */) {
-        // @todo implement effects
+    handleEffect (name) {
+        const effects = new AudioEffects(this.audioBufferPlayer.buffer, name);
+        effects.process().then(newBuffer => {
+            const samples = newBuffer.getChannelData(0);
+            const sampleRate = newBuffer.sampleRate;
+            this.submitNewSamples(samples, sampleRate);
+            this.handlePlay();
+        });
+    }
+    handleUndo () {
+        this.redoStack.push(this.props.samples.slice(0));
+        const samples = this.undoStack.pop();
+        if (samples) {
+            this.submitNewSamples(samples, this.props.sampleRate, true);
+        }
+    }
+    handleRedo () {
+        const samples = this.redoStack.pop();
+        if (samples) {
+            this.undoStack.push(this.props.samples.slice(0));
+            this.submitNewSamples(samples, this.props.sampleRate, true);
+        }
     }
     render () {
+        const {effectTypes} = AudioEffects;
         return (
             <SoundEditorComponent
+                canRedo={this.redoStack.length > 0}
+                canUndo={this.undoStack.length > 0}
                 chunkLevels={this.state.chunkLevels}
                 name={this.props.name}
                 playhead={this.state.playhead}
@@ -111,17 +146,19 @@ class SoundEditor extends React.Component {
                 trimStart={this.state.trimStart}
                 onActivateTrim={this.handleActivateTrim}
                 onChangeName={this.handleChangeName}
-                onEcho={this.effectFactory('echo')}
-                onFaster={this.effectFactory('faster')}
-                onLouder={this.effectFactory('louder')}
+                onEcho={this.effectFactory(effectTypes.ECHO)}
+                onFaster={this.effectFactory(effectTypes.FASTER)}
+                onLouder={this.effectFactory(effectTypes.LOUDER)}
                 onPlay={this.handlePlay}
-                onReverse={this.effectFactory('reverse')}
-                onRobot={this.effectFactory('robot')}
+                onRedo={this.handleRedo}
+                onReverse={this.effectFactory(effectTypes.REVERSE)}
+                onRobot={this.effectFactory(effectTypes.ROBOT)}
                 onSetTrimEnd={this.handleUpdateTrimEnd}
                 onSetTrimStart={this.handleUpdateTrimStart}
-                onSlower={this.effectFactory('slower')}
-                onSofter={this.effectFactory('softer')}
+                onSlower={this.effectFactory(effectTypes.SLOWER)}
+                onSofter={this.effectFactory(effectTypes.SOFTER)}
                 onStop={this.handleStopPlaying}
+                onUndo={this.handleUndo}
             />
         );
     }
