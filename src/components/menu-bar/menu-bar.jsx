@@ -22,9 +22,9 @@ const MenuBar = function MenuBar () {
                     src={scratchLogo}
                 />
             </div>
+            <LanguageSelector className={styles.menuItem} />
             <SaveButton className={styles.menuItem} />
             <LoadButton className={styles.menuItem} />
-            <LanguageSelector className={styles.menuItem} />
         </Box>
     );
 };

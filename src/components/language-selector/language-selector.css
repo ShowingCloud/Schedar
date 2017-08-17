@@ -9,7 +9,7 @@
 
 .language-icon {
     height:  2rem;
-    display:none;
+    display:auto;
 }
 
 .language-select {
