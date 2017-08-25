@@ -107,7 +107,8 @@
     right: 100px;
     height: 150px;
     width: 166px;
-    opacity: 0.2;
+    opacity: 0.1;
+    pointer-events: none;
 }
 
 .stage-and-target-wrapper {
