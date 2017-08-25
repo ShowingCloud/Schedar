@@ -19,6 +19,8 @@ import MenuBar from '../menu-bar/menu-bar.jsx';
 import layout from '../../lib/layout-constants.js';
 import styles from './gui.css';
 
+import watermarkIcon from './watermark.svg';
+
 const GUIComponent = props => {
     const {
         basePath,
@@ -75,6 +77,10 @@ const GUIComponent = props => {
                                             media: `${basePath}static/blocks-media/`
                                         }}
                                         vm={vm}
+                                    />
+                                    <img
+                                        className={styles.watermarkIcon}
+                                        src={watermarkIcon}
                                     />
                                 </Box>
                             </TabPanel>

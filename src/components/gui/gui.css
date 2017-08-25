@@ -101,6 +101,15 @@
     position: relative;
 }
 
+.watermark-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    height: 150px;
+    width: 166px;
+    opacity: 0.2;
+}
+
 .stage-and-target-wrapper {
     /*
         Makes rows for children:
