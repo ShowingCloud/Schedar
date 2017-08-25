@@ -82,19 +82,19 @@ module.exports = {
         new HtmlWebpackPlugin({
             chunks: ['lib', 'gui'],
             template: 'src/index.ejs',
-            title: 'Scratch 3.0 GUI'
+            title: 'Scratch 3.0 猛犸学院特别版'
         }),
         new HtmlWebpackPlugin({
             chunks: ['lib', 'blocksonly'],
             template: 'src/index.ejs',
             filename: 'blocks-only.html',
-            title: 'Scratch 3.0 GUI: Blocks Only Example'
+            title: 'Scratch 3.0 猛犸学院特别版: Blocks Only Example'
         }),
         new HtmlWebpackPlugin({
             chunks: ['lib', 'player'],
             template: 'src/index.ejs',
             filename: 'player.html',
-            title: 'Scratch 3.0 GUI: Player Example'
+            title: 'Scratch 3.0 猛犸学院特别版: Player Example'
         }),
         new CopyWebpackPlugin([{
             from: 'node_modules/scratch-blocks/media',
