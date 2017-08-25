@@ -1,3 +1,10 @@
+@import "../../css/units.css";
+
 .file-input {
     display: none;
+}
+
+.icon {
+    height: 60%;
+    vertical-align: middle;
 }

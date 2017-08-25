@@ -3,6 +3,7 @@ import React from 'react';
 
 import ButtonComponent from '../button/button.jsx';
 
+import loadButtonIcon from './icon--load-button.svg';
 import styles from './load-button.css';
 
 const LoadButtonComponent = ({
@@ -13,7 +14,12 @@ const LoadButtonComponent = ({
     ...props
 }) => (
     <span {...props}>
-        <ButtonComponent onClick={onClick}>{title}</ButtonComponent>
+        <ButtonComponent onClick={onClick}>
+            <img
+                className={styles.icon}
+                src={loadButtonIcon}
+            />
+        </ButtonComponent>
         <input
             className={styles.fileInput}
             ref={inputRef}
