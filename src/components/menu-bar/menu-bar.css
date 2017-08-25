@@ -45,6 +45,17 @@
     transition: all .075s ease-in;
 }
 
+.mammoth-logo {
+    height:  $menu-bar-height;
+    padding: 0.3rem 0;
+}
+
+.mammoth-logo:hover {
+    transform: scale(1.1, 1.1);
+    background-size: 100%;
+    transition: all .075s ease-in;
+}
+
 .title {
     display: inline-block;
     margin: 0 2rem;

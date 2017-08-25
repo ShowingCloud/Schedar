@@ -7,7 +7,7 @@ import SaveButton from '../../containers/save-button.jsx';
 import LanguageSelector from '../../containers/language-selector.jsx';
 
 import styles from './menu-bar.css';
-import scratchLogo from './scratch-logo.svg';
+import mammothLogo from './mammoth-logo.svg';
 
 const MenuBar = function MenuBar () {
     return (
@@ -18,8 +18,8 @@ const MenuBar = function MenuBar () {
         >
             <div className={classNames(styles.logoWrapper, styles.menuItem)}>
                 <img
-                    className={styles.scratchLogo}
-                    src={scratchLogo}
+                    className={styles.mammothLogo}
+                    src={mammothLogo}
                 />
             </div>
             <LanguageSelector className={styles.menuItem} />
