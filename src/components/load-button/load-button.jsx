@@ -10,12 +10,13 @@ const LoadButtonComponent = ({
     onChange,
     onClick,
     imgSrc,
+    imgClassName,
     ...props
 }) => (
     <span {...props}>
         <ButtonComponent onClick={onClick}>
             <img
-                className={styles.icon}
+                className={imgClassName}
                 src={imgSrc}
             />
         </ButtonComponent>

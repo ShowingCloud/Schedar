@@ -75,3 +75,9 @@
     opacity: 0.8;
     background: rgba(255, 255, 255, 0.2)
 }
+
+.icon-menu-item {
+    height: 60%;
+    padding: 0 0;
+    vertical-align: middle;
+}

@@ -35,6 +35,8 @@ class SaveButton extends React.Component {
     render () {
         const {
             saveProjectSb3, // eslint-disable-line no-unused-vars
+            imgSrc,
+            imgClassName,
             ...props
         } = this.props;
         return (
@@ -42,7 +44,10 @@ class SaveButton extends React.Component {
                 onClick={this.handleClick}
                 {...props}
             >
-                Save
+                <img
+                    className={imgClassName}
+                    src={imgSrc}
+                />
             </ButtonComponent>
         );
     }
