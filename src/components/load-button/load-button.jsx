@@ -3,21 +3,20 @@ import React from 'react';
 
 import ButtonComponent from '../button/button.jsx';
 
-import loadButtonIcon from './icon--load-button.svg';
 import styles from './load-button.css';
 
 const LoadButtonComponent = ({
     inputRef,
     onChange,
     onClick,
-    title,
+    imgSrc,
     ...props
 }) => (
     <span {...props}>
         <ButtonComponent onClick={onClick}>
             <img
                 className={styles.icon}
-                src={loadButtonIcon}
+                src={imgSrc}
             />
         </ButtonComponent>
         <input
@@ -37,6 +36,6 @@ LoadButtonComponent.propTypes = {
     title: PropTypes.string
 };
 LoadButtonComponent.defaultProps = {
-    title: 'Load'
+    imgSrc: ''
 };
 export default LoadButtonComponent;

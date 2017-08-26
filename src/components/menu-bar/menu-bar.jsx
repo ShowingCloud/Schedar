@@ -8,6 +8,7 @@ import LanguageSelector from '../../containers/language-selector.jsx';
 
 import styles from './menu-bar.css';
 import mammothLogo from './mammoth-logo.svg';
+import loadButtonIcon from './icon--load-button.svg';
 
 const MenuBar = function MenuBar () {
     return (
@@ -24,6 +25,7 @@ const MenuBar = function MenuBar () {
             </div>
             <LanguageSelector className={styles.menuItem} />
             <SaveButton className={styles.menuItem} />
+            <LoadButton imgSrc={loadButtonIcon} className={styles.menuItem} />
             <LoadButton className={styles.menuItem} />
         </Box>
     );
