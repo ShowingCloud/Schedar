@@ -54,7 +54,9 @@ class SaveButton extends React.Component {
 }
 
 SaveButton.propTypes = {
-    saveProjectSb3: PropTypes.func.isRequired
+    saveProjectSb3: PropTypes.func.isRequired,
+    imgSrc: PropTypes.string.isRequired,
+    imgClassName: PropTypes.string.isRequired
 };
 
 const mapStateToProps = state => ({

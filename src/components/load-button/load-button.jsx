@@ -34,9 +34,9 @@ LoadButtonComponent.propTypes = {
     inputRef: PropTypes.func.isRequired,
     onChange: PropTypes.func.isRequired,
     onClick: PropTypes.func.isRequired,
-    title: PropTypes.string
+    imgSrc: PropTypes.string.isRequired,
+    imgClassName: PropTypes.string.isRequired
 };
 LoadButtonComponent.defaultProps = {
-    imgSrc: ''
 };
 export default LoadButtonComponent;
