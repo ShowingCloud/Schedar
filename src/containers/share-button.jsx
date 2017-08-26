@@ -5,7 +5,9 @@ import {connect} from 'react-redux';
 import ButtonComponent from '../components/button/button.jsx';
 import ShareModal from './share-modal.jsx';
 
-import {openShareProject} from '../reducers/modals';
+import {
+    openShareProject
+} from '../reducers/modals';
 
 class ShareButton extends React.Component {
     constructor (props) {
