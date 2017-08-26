@@ -6,13 +6,15 @@ const MODAL_COSTUME_LIBRARY = 'costumeLibrary';
 const MODAL_SOUND_LIBRARY = 'soundLibrary';
 const MODAL_SPRITE_LIBRARY = 'spriteLibrary';
 const MODAL_SOUND_RECORDER = 'soundRecorder';
+const MODAL_SHARE_PROJECT = 'shareProject';
 
 const initialState = {
     [MODAL_BACKDROP_LIBRARY]: false,
     [MODAL_COSTUME_LIBRARY]: false,
     [MODAL_SOUND_LIBRARY]: false,
     [MODAL_SPRITE_LIBRARY]: false,
-    [MODAL_SOUND_RECORDER]: false
+    [MODAL_SOUND_RECORDER]: false,
+    [MODAL_SHARE_PROJECT]: false
 };
 
 const reducer = function (state, action) {
@@ -57,6 +59,9 @@ const openSpriteLibrary = function () {
 const openSoundRecorder = function () {
     return openModal(MODAL_SOUND_RECORDER);
 };
+const openShareProject = function () {
+    return openModal(MODAL_SHARE_PROJECT);
+};
 const closeBackdropLibrary = function () {
     return closeModal(MODAL_BACKDROP_LIBRARY);
 };
@@ -72,6 +77,9 @@ const closeSoundLibrary = function () {
 const closeSoundRecorder = function () {
     return closeModal(MODAL_SOUND_RECORDER);
 };
+const closeShareProject = function () {
+    return closeModal(MODAL_SHARE_PROJECT);
+};
 export {
     reducer as default,
     openBackdropLibrary,
@@ -79,9 +87,11 @@ export {
     openSoundLibrary,
     openSpriteLibrary,
     openSoundRecorder,
+    openShareProject,
     closeBackdropLibrary,
     closeCostumeLibrary,
     closeSpriteLibrary,
     closeSoundLibrary,
-    closeSoundRecorder
+    closeSoundRecorder,
+    closeShareProject
 };
