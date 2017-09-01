@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import {FormattedMessage} from 'react-intl';
 
 import Box from '../box/box.jsx';
 import languages from '../../locale.js';
@@ -17,6 +18,13 @@ const LanguageSelector = ({
                 className={styles.languageIcon}
                 src={languageIcon}
             />
+            <div className={styles.languageSelectLabel}>
+                <FormattedMessage
+                    defaultMessage="Language"
+                    description="Label of Langauge Selector"
+                    id="menuBar.languageSelector"
+                />
+            </div>
             <select
                 className={styles.languageSelect}
                 value={currentLocale}

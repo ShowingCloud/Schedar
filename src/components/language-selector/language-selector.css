@@ -9,11 +9,11 @@
 
 .language-icon {
     height:  2rem;
-    display:auto;
+    display:none;
 }
 
 .language-select {
-    width: 100%;
+    width: auto;
     height: 1.85rem;
     border: 1px solid #88664d;
     user-select: none;
@@ -21,4 +21,14 @@
     background: rgba(255, 255, 255, 0.5);
     color: #8a5028;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.language-select-label {
+    padding: 0 .5rem;
+    width: auto;
+    user-select: none;
+    color: #f7db9f;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: default;
 }
