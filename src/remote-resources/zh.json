@@ -1,0 +1,98 @@
+{
+  "menuBar.languageSelector": {
+    "message": "语言",
+    "description": "Label of Langauge Selector"
+  },
+  "soundEditor.sound": {
+    "message": "声音",
+    "description": "Lable for the name of the sound"
+  },
+  "soundEditor.play": {
+    "message": "播放",
+    "description": "Title of the button to start playing the sound"
+  },
+  "soundEditor.stop": {
+    "message": "停止",
+    "description": "Title of the button to stop the sound"
+  },
+  "soundEditor.trim": {
+    "message": "修剪",
+    "description": "Title of the button to start trimminging the sound"
+  },
+  "soundEditor.save": {
+    "message": "保存",
+    "description": "Title of the button to save trimmed sound"
+  },
+  "soundEditor.undo": {
+    "message": "撤销",
+    "description": "Title of the button to undo"
+  },
+  "soundEditor.redo": {
+    "message": "重做",
+    "description": "Title of the button to redo"
+  },
+  "soundEditor.faster": {
+    "message": "加速",
+    "description": "Title of the button to apply the faster effect"
+  },
+  "soundEditor.slower": {
+    "message": "减速",
+    "description": "Title of the button to apply the slower effect"
+  },
+  "soundEditor.echo": {
+    "message": "回响",
+    "description": "Title of the button to apply the echo effect"
+  },
+  "soundEditor.robot": {
+    "message": "机器人",
+    "description": "Title of the button to apply the robot effect"
+  },
+  "soundEditor.louder": {
+    "message": "更响",
+    "description": "Title of the button to apply the louder effect"
+  },
+  "soundEditor.softer": {
+    "message": "更轻",
+    "description": "Title of the button to apply thr.softer effect"
+  },
+  "soundEditor.reverse": {
+    "message": "倒带",
+    "description": "Title of the button to apply the reverse effect"
+  },
+  "contextMenu.delete": {
+    "message": "删除",
+    "description": "Menu item to delete in the right click menu"
+  },
+  "targetPane.addSprite": {
+    "message": "添加角色",
+    "description": "Button to add a sprite in the target pane"
+  },
+  "targetPane.addBackdrop": {
+    "message": "添加背景",
+    "description": "Button to add a backdrop in the target pane"
+  },
+  "stageSelector.backdrops": {
+    "message": "背景",
+    "description": "Label for the backdrops in the stage selector"
+  },
+  "controls.turboMode": {
+    "message": "加速模式",
+    "description": "Label indicating turbo mode is active"
+  },
+  "action.addBackdrop": {
+    "message": "添加背景",
+    "description": "Button to add a backdrop in the editor tab"
+  },
+  "action.addCostume": {
+    "message": "添加形象",
+    "description": "Button to add a costume in the editor tab"
+  },
+  "action.recordSound": {
+    "message": "录音",
+    "description": "Button to record a sound in the editor tab"
+  },
+  "action.addSound": {
+    "message": "添加声音",
+    "description": "Button to add a sound in the editor tab"
+  }
+}
