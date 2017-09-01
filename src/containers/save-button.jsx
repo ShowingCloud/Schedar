@@ -37,18 +37,24 @@ class SaveButton extends React.Component {
             saveProjectSb3, // eslint-disable-line no-unused-vars
             imgSrc,
             imgClassName,
+            className,
             ...props
         } = this.props;
         return (
-            <ButtonComponent
-                onClick={this.handleClick}
+            <span
+                className={className}
                 {...props}
             >
-                <img
-                    className={imgClassName}
-                    src={imgSrc}
-                />
-            </ButtonComponent>
+                <ButtonComponent
+                    onClick={this.handleClick}
+                    {...props}
+                >
+                    <img
+                        className={imgClassName}
+                        src={imgSrc}
+                    />
+                </ButtonComponent>
+            </span>
         );
     }
 }
