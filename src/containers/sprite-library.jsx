@@ -35,8 +35,8 @@ class SpriteLibrary extends React.PureComponent {
             sprites: spriteLibraryContent
         };
     }
-    componentWillReceiveProps (newProps) {
-        if (!newProps.visible) clearInterval(this.intervalId);
+    componentWillUnmount () {
+        clearInterval(this.intervalId);
     }
     handleItemSelect (item) {
         this.props.vm.addSprite2(JSON.stringify(item.json));
@@ -77,7 +77,6 @@ class SpriteLibrary extends React.PureComponent {
             <LibraryComponent
                 data={this.state.sprites}
                 title="Sprite Library"
-                visible={this.props.visible}
                 onItemMouseEnter={this.handleMouseEnter}
                 onItemMouseLeave={this.handleMouseLeave}
                 onItemSelected={this.handleItemSelect}
@@ -89,7 +88,6 @@ class SpriteLibrary extends React.PureComponent {
 
 SpriteLibrary.propTypes = {
     onRequestClose: PropTypes.func,
-    visible: PropTypes.bool,
     vm: PropTypes.instanceOf(VM).isRequired
 };
 
