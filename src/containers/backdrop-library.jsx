@@ -15,15 +15,18 @@ class BackdropLibrary extends React.Component {
             'handleItemSelect'
         ]);
 
-        this.fullBackdropLibraryContent = [];
         xhr({
             uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_backdrops.json`,
             json: true
         }, (err, res, body) => {
             if (!err && body) {
-                this.fullBackdropLibraryContent = body.concat(backdropLibraryContent);
+                this.setState({backdrops: body.concat(backdropLibraryContent)});
             }
         });
+
+        this.state = {
+            backdrops: backdropLibraryContent
+        };
     }
     handleItemSelect (item) {
         const vmBackdrop = {
@@ -38,7 +41,7 @@ class BackdropLibrary extends React.Component {
     render () {
         return (
             <LibraryComponent
-                data={this.fullBackdropLibraryContent}
+                data={this.state.backdrops}
                 title="Backdrop Library"
                 onItemSelected={this.handleItemSelect}
                 onRequestClose={this.props.onRequestClose}
