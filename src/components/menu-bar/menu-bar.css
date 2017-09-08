@@ -63,7 +63,9 @@
 
 .menu-item {
     display: block;
+    position: relative;
     padding: 0 1.5rem;
+    margin: 0 1rem;
     line-height: $menu-bar-height; 
     cursor: pointer;
     text-decoration: none;
@@ -79,5 +81,8 @@
 .icon-menu-item {
     height: 60%;
     padding: 0 0;
+    margin: auto;
     vertical-align: middle;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
 }
