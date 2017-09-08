@@ -1,31 +1,54 @@
 [
     {
-        "name": "Elephant Data Goldenrod",
-        "md5": "s1.png-20afc1beb8abc231388359564c70f5b8.png",
-		"addons": 1,
+        "name": "Circuits",
+        "md5": "s2-5635797c8afe57ee9714e7244346f067.png",
+        "addons": 1,
         "type": "backdrop",
         "tags": [
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            1456,
+            1097,
+            3.033
+        ]
+    },
+    {
+        "name": "Elephant Data Goldenrod",
+        "md5": "s1.png-20afc1beb8abc231388359564c70f5b8.png",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "outdoors",
+            "nature",
+            "Mammoth",
+            "bitmap"
         ],
         "info": [
             2057,
             1157,
             2
-            ]
+        ]
     },
     {
         "name": "Elephant Data Grassland",
         "md5": "s0.png-ac77062cffd5deb354022aee97df3286.png",
-		"addons": 1,
+        "addons": 1,
         "type": "backdrop",
         "tags": [
             "outdoors",
-			"nature",
-			"flying"
+            "nature",
+            "flying",
+            "Mammoth",
+            "bitmap"
         ],
         "info": [
             1017,
             747,
             2
-            ]
+        ]
     }
 ]

@@ -1,12 +1,142 @@
 [
     {
+        "name": "Light Bulbs",
+        "md5": "costume21-f1f48096cca9b87f7bf8d67dc188cadd.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Light Bulbs",
+            "costumes": [
+                {
+                    "costumeName": "Light Bulb 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "costume21-f1f48096cca9b87f7bf8d67dc188cadd.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 63,
+                    "rotationCenterY": 85
+                },
+                {
+                    "costumeName": "Light Bulb 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "costume22-e6e538530dc2fa3b48acd97205467960.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 63,
+                    "rotationCenterY": 85
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1.206,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Battery",
+        "md5": "costume23-4137c224307b60908b191a65ce38def4.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Battery",
+            "costumes": [
+                {
+                    "costumeName": "Battery",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "costume23-4137c224307b60908b191a65ce38def4.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 229,
+                    "rotationCenterY": 50
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1.05,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Resistor",
+        "md5": "costume24-4f91abfeed61ac019a2f373119a2f5f9.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Resistor",
+            "costumes": [
+                {
+                    "costumeName": "Resistor",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "costume24-4f91abfeed61ac019a2f373119a2f5f9.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 61,
+                    "rotationCenterY": 18
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1.167,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
         "name": "ELephant Data",
-		"md5": "costume11.png-fce75bc0196dca26f50e8380897a4d5a.png",
-		"addons": 1,
+        "md5": "costume13_37f6439da47b7eb6187b2fa5537d14e0.png",
+        "addons": 1,
         "type": "sprite",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ],
         "info": [
             0,
@@ -19,18 +149,18 @@
                 {
                     "costumeName": "Elephant Data 1",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "costume11.png-fce75bc0196dca26f50e8380897a4d5a.png",
-                    "bitmapResolution": 1,
-                    "rotationCenterX": 255,
-                    "rotationCenterY": 225
+                    "baseLayerMD5": "costume13_37f6439da47b7eb6187b2fa5537d14e0.png",
+                    "bitmapResolution": 3,
+                    "rotationCenterX": 366,
+                    "rotationCenterY": 323
                 },
                 {
                     "costumeName": "Elephant Data 2",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "costume12.png-17735ac398b990d576fd752fc6110371.png",
-                    "bitmapResolution": 1,
-                    "rotationCenterX": 325,
-                    "rotationCenterY": 212
+                    "baseLayerMD5": "costume14_2b75f0b966f3ca4d3c86bce4ca99c394.png",
+                    "bitmapResolution": 3,
+                    "rotationCenterX": 441,
+                    "rotationCenterY": 288
                 }
             ],
             "currentCostumeIndex": 0,
@@ -47,12 +177,14 @@
     },
     {
         "name": "Leopard",
-		"md5": "costume01.png-9b9388ea69f4e5eda93eea7b646bd0aa.png",
-		"addons": 1,
+        "md5": "costume01.png-9b9388ea69f4e5eda93eea7b646bd0aa.png",
+        "addons": 1,
         "type": "sprite",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ],
         "info": [
             0,

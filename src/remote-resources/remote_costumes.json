@@ -1,30 +1,98 @@
 [
     {
         "info": [
-            510,
-            450
+            126,
+            170
         ],
-        "md5": "costume11.png-fce75bc0196dca26f50e8380897a4d5a.png",
-		"addons": 1,
+        "md5": "costume21-f1f48096cca9b87f7bf8d67dc188cadd.png",
+        "addons": 1,
         "type": "costume",
-        "name": "Elephant Data 1",
+        "name": "Light Bulb 1",
         "tags": [
-            "animals",
-            "drawing"
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
         ]
     },
     {
         "info": [
-            513,
-            219
+            126,
+            170
         ],
-        "md5": "costume12.png-17735ac398b990d576fd752fc6110371.png",
-		"addons": 1,
+        "md5": "costume22-e6e538530dc2fa3b48acd97205467960.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Light Bulb 2",
+        "tags": [
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            458,
+            100
+        ],
+        "md5": "costume23-4137c224307b60908b191a65ce38def4.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Battery",
+        "tags": [
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            122,
+            35
+        ],
+        "md5": "costume24-4f91abfeed61ac019a2f373119a2f5f9.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Resistor",
+        "tags": [
+            "physics",
+            "circuits",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            732,
+            646
+        ],
+        "md5": "costume13_37f6439da47b7eb6187b2fa5537d14e0.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Elephant Data 1",
+        "tags": [
+            "animals",
+            "drawing",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            883,
+            576
+        ],
+        "md5": "costume14_2b75f0b966f3ca4d3c86bce4ca99c394.png",
+        "addons": 1,
         "type": "costume",
         "name": "Elephant Data 2",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ]
     },
     {
@@ -33,12 +101,14 @@
             219
         ],
         "md5": "costume01.png-9b9388ea69f4e5eda93eea7b646bd0aa.png",
-		"addons": 1,
+        "addons": 1,
         "type": "costume",
         "name": "Leopard 1",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ]
     },
     {
@@ -47,12 +117,14 @@
             219
         ],
         "md5": "costume02.png-be3c5741002a59fe69ba5042efb530f6.png",
-		"addons": 1,
+        "addons": 1,
         "type": "costume",
         "name": "Leopard 2",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ]
     },
     {
@@ -61,12 +133,14 @@
             219
         ],
         "md5": "costume03.png-4ea66acf36aa10213f378bde861bff5e.png",
-		"addons": 1,
+        "addons": 1,
         "type": "costume",
         "name": "Leopard 3",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ]
     },
     {
@@ -75,12 +149,14 @@
             219
         ],
         "md5": "costume04.png-a1a9f4f013649c15971d5494bfd43ad0.png",
-		"addons": 1,
+        "addons": 1,
         "type": "costume",
         "name": "Leopard 4",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ]
     },
     {
@@ -89,12 +165,14 @@
             219
         ],
         "md5": "costume05.png-9011c22e7e5422197001f8d3b7be19c3.png",
-		"addons": 1,
+        "addons": 1,
         "type": "costume",
         "name": "Leopard 5",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ]
     },
     {
@@ -103,12 +181,14 @@
             219
         ],
         "md5": "costume06.png-6a5f5a1772bcfbd3aa0b389f5705a14a.png",
-		"addons": 1,
+        "addons": 1,
         "type": "costume",
         "name": "Leopard 6",
         "tags": [
             "animals",
-            "drawing"
+            "drawing",
+            "Mammoth",
+            "bitmap"
         ]
     }
 ]
