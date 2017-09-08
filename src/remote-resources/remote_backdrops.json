@@ -1,7 +1,7 @@
 [
     {
         "name": "Circumnavigation",
-        "md5": "s5_47a27fa5061b697a205cbf4c3bed6a09.png",
+        "md5": "s5_4ae407a1e563ebf4deeb85d6fb93f696.svg",
         "addons": 1,
         "type": "backdrop",
         "tags": [
@@ -11,14 +11,14 @@
             "bitmap"
         ],
         "info": [
-            1017,
-            779,
-            2.1188
+            505,
+            372,
+            1
         ]
     },
     {
         "name": "Running",
-        "md5": "s4_654b74e5173dc01412b7a8c486eb4102.png",
+        "md5": "s4_75c0661e5cd1fa978d25015efa47184c.png",
         "addons": 1,
         "type": "backdrop",
         "tags": [
@@ -28,14 +28,14 @@
             "bitmap"
         ],
         "info": [
-            1448,
-            1087,
-            3.0167
+            479,
+            360,
+            1
         ]
     },
     {
         "name": "Drawing",
-        "md5": "s3_943d55a470e359b10da63d8568b2ef02.png",
+        "md5": "s3_01cd354cbfc656e5e5cb8e15490ae811.png",
         "addons": 1,
         "type": "backdrop",
         "tags": [
@@ -45,14 +45,14 @@
             "bitmap"
         ],
         "info": [
-            1446,
-            1086,
-            3.0125
+            479,
+            360,
+            1
         ]
     },
     {
         "name": "Circuits",
-        "md5": "s2-5635797c8afe57ee9714e7244346f067.png",
+        "md5": "s2_6bce9298031cf78afabbe8761ccfe706.png",
         "addons": 1,
         "type": "backdrop",
         "tags": [
@@ -62,9 +62,9 @@
             "bitmap"
         ],
         "info": [
-            1456,
-            1097,
-            3.033
+            479,
+            360,
+            1
         ]
     },
     {

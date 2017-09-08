@@ -1,26 +1,10 @@
 [
     {
         "info": [
-            1017,
-            752
+            85,
+            71
         ],
-        "md5": "c53_c7d7a7f50460a36c901dd454b8e5cc00.png",
-        "addons": 1,
-        "type": "costume",
-        "name": "World Map",
-        "tags": [
-            "geography",
-            "circumnavigation",
-            "Mammoth",
-            "bitmap"
-        ]
-    },
-    {
-        "info": [
-            161,
-            135
-        ],
-        "md5": "c51_22719d0db3f70cdee5fc0c09b25dc2de.png",
+        "md5": "c51_79bf8ca08796b36a846147fcb9486fd5.svg",
         "addons": 1,
         "type": "costume",
         "name": "China",
@@ -49,10 +33,10 @@
     },
     {
         "info": [
-            384,
-            137
+            193,
+            70
         ],
-        "md5": "c52_431d60371cc3ac03832cf0b86a519b74.png",
+        "md5": "c52_4245c1cb3804123f034f658437b64299.svg",
         "addons": 1,
         "type": "costume",
         "name": "Russia",
@@ -113,10 +97,10 @@
     },
     {
         "info": [
-            33,
-            61
+            18,
+            32
         ],
-        "md5": "c55_097af2974bf738a2e229c3775b1dbe22.png",
+        "md5": "c55_30e29abc64eaa73c591cc0b7d9a20e6c.svg",
         "addons": 1,
         "type": "costume",
         "name": "Japan",
@@ -177,10 +161,10 @@
     },
     {
         "info": [
-            173,
-            94
+            96,
+            52
         ],
-        "md5": "c57_f40835a23923253045794d32ede49660.png",
+        "md5": "c57_6eff6732eb8495dc38d721efc89d839c.svg",
         "addons": 1,
         "type": "costume",
         "name": "United States",
@@ -241,10 +225,10 @@
     },
     {
         "info": [
-            246,
-            138
+            126,
+            71
         ],
-        "md5": "c59_8fb96c2a1ff3f5bc221bb66b6aca9bda.png",
+        "md5": "c59_52560d5d24c1dd5f0aaa7d2509ffc9d4.svg",
         "addons": 1,
         "type": "costume",
         "name": "Canada",
@@ -273,10 +257,10 @@
     },
     {
         "info": [
-            152,
-            144
+            71,
+            67
         ],
-        "md5": "c41_de834b515efd46d57ca5e986e6d001a6.png",
+        "md5": "c41_9ffabdea30995febeaa9052c40154881.svg",
         "addons": 1,
         "type": "costume",
         "name": "Zebra 1",
@@ -289,10 +273,10 @@
     },
     {
         "info": [
-            152,
-            148
+            70,
+            69
         ],
-        "md5": "c42_e7e08d2abce9733a5461ba8e58d96650.png",
+        "md5": "c42_805864d41ad6187399a686649bf42a9f.svg",
         "addons": 1,
         "type": "costume",
         "name": "Zebra 2",
@@ -305,10 +289,10 @@
     },
     {
         "info": [
-            166,
-            136
+            66,
+            54
         ],
-        "md5": "c43_9bc612d02e94458d4af45b027e55fbb2.png",
+        "md5": "c43_518565c120005b5a4006c9e8ee51feae.svg",
         "addons": 1,
         "type": "costume",
         "name": "Fox 1",
@@ -321,10 +305,10 @@
     },
     {
         "info": [
-            166,
-            138
+            66,
+            54
         ],
-        "md5": "c44_d4ab671539a962683cd7f373a830d2aa.png",
+        "md5": "c44_d77ab5f101c85beb4fb1e23f27512d72.svg",
         "addons": 1,
         "type": "costume",
         "name": "Fox 2",
@@ -337,10 +321,10 @@
     },
     {
         "info": [
-            158,
-            176
+            70,
+            77
         ],
-        "md5": "c45_b885640c905ed2b23e4fe241c3156757.png",
+        "md5": "c45_fb11ea2b44a2233d1946a55b5608610c.svg",
         "addons": 1,
         "type": "costume",
         "name": "Lion 1",
@@ -353,10 +337,10 @@
     },
     {
         "info": [
-            158,
-            179
+            69,
+            79
         ],
-        "md5": "c46_3b3fb3e0c4c6f23780eaafc24ef550da.png",
+        "md5": "c46_879723d221a985de41bc0949b86b9d29.svg",
         "addons": 1,
         "type": "costume",
         "name": "Lion 2",
@@ -369,10 +353,10 @@
     },
     {
         "info": [
-            186,
-            152
+            76,
+            62
         ],
-        "md5": "c47_a9aa924e3ed5fb4fca31ca68c5b31428.png",
+        "md5": "c47_2b6c7ffd281f8c5a18ba2223528f75f7.svg",
         "addons": 1,
         "type": "costume",
         "name": "Cheetah 1",
@@ -385,10 +369,10 @@
     },
     {
         "info": [
-            186,
-            155
+            76,
+            63
         ],
-        "md5": "c48_afcea3675844b7efcb14ba9dc14cfcc0.png",
+        "md5": "c48_bbf68ee33feb4141f5c83ad89d25318c.svg",
         "addons": 1,
         "type": "costume",
         "name": "Cheetah 2",
@@ -401,10 +385,10 @@
     },
     {
         "info": [
-            151,
-            183
+            65,
+            79
         ],
-        "md5": "c49_75752d49ab6f0e3d8bb089b6cc2ccc28.png",
+        "md5": "c49_2835a7d71d5f6ef4a0846766ce312f0e.svg",
         "addons": 1,
         "type": "costume",
         "name": "Antelope 1",
@@ -417,10 +401,10 @@
     },
     {
         "info": [
-            151,
-            187
+            66,
+            81
         ],
-        "md5": "c4a_14bbc4e9cdecd7c7439b229da4996135.png",
+        "md5": "c4a_c5153998e785b103bf9d19350a42a701.svg",
         "addons": 1,
         "type": "costume",
         "name": "Antelope 2",
@@ -433,10 +417,10 @@
     },
     {
         "info": [
-            298,
-            355
+            51,
+            43
         ],
-        "md5": "c31_2342965ea61d5b77fd05edae2c842d01.png",
+        "md5": "c31_07efc90d8b4eb241deed8e436988febb.svg",
         "addons": 1,
         "type": "costume",
         "name": "Pencil",
@@ -449,10 +433,10 @@
     },
     {
         "info": [
-            126,
-            170
+            152,
+            205
         ],
-        "md5": "costume21-f1f48096cca9b87f7bf8d67dc188cadd.png",
+        "md5": "c21_9c0ef45f9216c2fc7558b1a493c8a13a.png",
         "addons": 1,
         "type": "costume",
         "name": "Light Bulb 1",
@@ -465,10 +449,10 @@
     },
     {
         "info": [
-            126,
-            170
+            152,
+            205
         ],
-        "md5": "costume22-e6e538530dc2fa3b48acd97205467960.png",
+        "md5": "c22_ae76edf33d7fb6ba7b4ea0f94d135ae6.png",
         "addons": 1,
         "type": "costume",
         "name": "Light Bulb 2",
@@ -481,10 +465,10 @@
     },
     {
         "info": [
-            458,
-            100
+            480,
+            105
         ],
-        "md5": "costume23-4137c224307b60908b191a65ce38def4.png",
+        "md5": ""c23_e88ab61ee2f763c8bfae549d98e1cdcc.png",
         "addons": 1,
         "type": "costume",
         "name": "Battery",
@@ -497,10 +481,10 @@
     },
     {
         "info": [
-            122,
-            35
+            147,
+            42
         ],
-        "md5": "costume24-4f91abfeed61ac019a2f373119a2f5f9.png",
+        "md5": "c24_ce185d2b570db4f64a53f31a6978e2cb.png",
         "addons": 1,
         "type": "costume",
         "name": "Resistor",
