@@ -1,6 +1,454 @@
 [
     {
         "info": [
+            1017,
+            752
+        ],
+        "md5": "c53_c7d7a7f50460a36c901dd454b8e5cc00.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "World Map",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            161,
+            135
+        ],
+        "md5": "c51_22719d0db3f70cdee5fc0c09b25dc2de.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "China",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c51f_2dca13ca1beffc63a445abe1ef4a6323.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Chinese Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            384,
+            137
+        ],
+        "md5": "c52_431d60371cc3ac03832cf0b86a519b74.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Russia",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c52f_258a759bdda3034dbbd6f5c8222ace17.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Russian Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            35,
+            33
+        ],
+        "md5": "c54_8bd106f9ef73f9577658410198bcb89d.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Germany",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c54f_38fffd452b085828377dd32456380333.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "German Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            33,
+            61
+        ],
+        "md5": "c55_097af2974bf738a2e229c3775b1dbe22.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Japan",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c55f_80e0b35101852f6cb41019655aed31ac.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Japanese Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            25,
+            28
+        ],
+        "md5": "c56_f5f54cd3032fa67621c089a76e2aba07.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "France",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c56f_bddb548dc3b8d0314216419b47ba9fb7.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "French Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            173,
+            94
+        ],
+        "md5": "c57_f40835a23923253045794d32ede49660.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "United States",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c57f_b5ec2a278b0ecfa0b1c3bb5bd67471f3.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "United States Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            26,
+            39
+        ],
+        "md5": "c58_b9aacc45ecb725503102b1adaec7a73f.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Britain",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c58f_1defe424710f981affb3ec47f1047695.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "British Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            246,
+            138
+        ],
+        "md5": "c59_8fb96c2a1ff3f5bc221bb66b6aca9bda.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Canada",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c59f_6eee654ef1c57b43e95a031f32b208f4.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Canadian Flag",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            152,
+            144
+        ],
+        "md5": "c41_de834b515efd46d57ca5e986e6d001a6.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Zebra 1",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            152,
+            148
+        ],
+        "md5": "c42_e7e08d2abce9733a5461ba8e58d96650.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Zebra 2",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            166,
+            136
+        ],
+        "md5": "c43_9bc612d02e94458d4af45b027e55fbb2.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Fox 1",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            166,
+            138
+        ],
+        "md5": "c44_d4ab671539a962683cd7f373a830d2aa.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Fox 2",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            158,
+            176
+        ],
+        "md5": "c45_b885640c905ed2b23e4fe241c3156757.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Lion 1",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            158,
+            179
+        ],
+        "md5": "c46_3b3fb3e0c4c6f23780eaafc24ef550da.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Lion 2",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            186,
+            152
+        ],
+        "md5": "c47_a9aa924e3ed5fb4fca31ca68c5b31428.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Cheetah 1",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            186,
+            155
+        ],
+        "md5": "c48_afcea3675844b7efcb14ba9dc14cfcc0.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Cheetah 2",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            151,
+            183
+        ],
+        "md5": "c49_75752d49ab6f0e3d8bb089b6cc2ccc28.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Antelope 1",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            151,
+            187
+        ],
+        "md5": "c4a_14bbc4e9cdecd7c7439b229da4996135.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Antelope 2",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            298,
+            355
+        ],
+        "md5": "c31_2342965ea61d5b77fd05edae2c842d01.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Pencil",
+        "tags": [
+            "arts",
+            "drawing",
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
             126,
             170
         ],

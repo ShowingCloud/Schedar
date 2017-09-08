@@ -1,5 +1,56 @@
 [
     {
+        "name": "Circumnavigation",
+        "md5": "s5_47a27fa5061b697a205cbf4c3bed6a09.png",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            1017,
+            779,
+            2.1188
+        ]
+    },
+    {
+        "name": "Running",
+        "md5": "s4_654b74e5173dc01412b7a8c486eb4102.png",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            1448,
+            1087,
+            3.0167
+        ]
+    },
+    {
+        "name": "Drawing",
+        "md5": "s3_943d55a470e359b10da63d8568b2ef02.png",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "arts",
+            "drawing",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            1446,
+            1086,
+            3.0125
+        ]
+    },
+    {
         "name": "Circuits",
         "md5": "s2-5635797c8afe57ee9714e7244346f067.png",
         "addons": 1,
