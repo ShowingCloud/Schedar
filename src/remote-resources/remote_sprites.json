@@ -1,7 +1,927 @@
 [
     {
+        "name": "China",
+        "md5": "c51_79bf8ca08796b36a846147fcb9486fd5.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "China",
+            "costumes": [
+                {
+                    "costumeName": "China",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c51_79bf8ca08796b36a846147fcb9486fd5.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 42,
+                    "rotationCenterY": 35
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Chinese Flag",
+        "md5": "c51f_2dca13ca1beffc63a445abe1ef4a6323.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Chinese Flag",
+            "costumes": [
+                {
+                    "costumeName": "Chinese Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c51f_2dca13ca1beffc63a445abe1ef4a6323.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Russia",
+        "md5": "c52_4245c1cb3804123f034f658437b64299.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Russia",
+            "costumes": [
+                {
+                    "costumeName": "Russia",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c52_4245c1cb3804123f034f658437b64299.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 96,
+                    "rotationCenterY": 35
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Russian Flag",
+        "md5": "c52f_258a759bdda3034dbbd6f5c8222ace17.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Russian Flag",
+            "costumes": [
+                {
+                    "costumeName": "Russian Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c52f_258a759bdda3034dbbd6f5c8222ace17.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Germany",
+        "md5": "c54_8bd106f9ef73f9577658410198bcb89d.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Germany",
+            "costumes": [
+                {
+                    "costumeName": "Germany",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c54_8bd106f9ef73f9577658410198bcb89d.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 17,
+                    "rotationCenterY": 16
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "German Flag",
+        "md5": "c54f_38fffd452b085828377dd32456380333.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "German Flag",
+            "costumes": [
+                {
+                    "costumeName": "German Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c54f_38fffd452b085828377dd32456380333.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Japan",
+        "md5": "c55_30e29abc64eaa73c591cc0b7d9a20e6c.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Japan",
+            "costumes": [
+                {
+                    "costumeName": "Japan",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c55_30e29abc64eaa73c591cc0b7d9a20e6c.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 9,
+                    "rotationCenterY": 16
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Japanese Flag",
+        "md5": "c55f_80e0b35101852f6cb41019655aed31ac.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Japanese Flag",
+            "costumes": [
+                {
+                    "costumeName": "Japanese Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c55f_80e0b35101852f6cb41019655aed31ac.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "France",
+        "md5": "c56_f5f54cd3032fa67621c089a76e2aba07.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "France",
+            "costumes": [
+                {
+                    "costumeName": "France",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c56_f5f54cd3032fa67621c089a76e2aba07.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 12,
+                    "rotationCenterY": 14
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "French Flag",
+        "md5": "c56f_bddb548dc3b8d0314216419b47ba9fb7.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "French Flag",
+            "costumes": [
+                {
+                    "costumeName": "French Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c56f_bddb548dc3b8d0314216419b47ba9fb7.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "United States",
+        "md5": "c57_6eff6732eb8495dc38d721efc89d839c.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "United States",
+            "costumes": [
+                {
+                    "costumeName": "United States",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c57_6eff6732eb8495dc38d721efc89d839c.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 48,
+                    "rotationCenterY": 36
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "United States Flag",
+        "md5": "c57f_b5ec2a278b0ecfa0b1c3bb5bd67471f3.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "United States Flag",
+            "costumes": [
+                {
+                    "costumeName": "United States Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c57f_b5ec2a278b0ecfa0b1c3bb5bd67471f3.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Britain",
+        "md5": "c58_b9aacc45ecb725503102b1adaec7a73f.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Britain",
+            "costumes": [
+                {
+                    "costumeName": "Britain",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c58_b9aacc45ecb725503102b1adaec7a73f.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 13,
+                    "rotationCenterY": 19
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "British Flag",
+        "md5": "c58f_1defe424710f981affb3ec47f1047695.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "British Flag",
+            "costumes": [
+                {
+                    "costumeName": "British Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c58f_1defe424710f981affb3ec47f1047695.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Canada",
+        "md5": "c59_52560d5d24c1dd5f0aaa7d2509ffc9d4.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Canada",
+            "costumes": [
+                {
+                    "costumeName": "Canada",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c59_52560d5d24c1dd5f0aaa7d2509ffc9d4.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 63,
+                    "rotationCenterY": 35
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Canadian Flag",
+        "md5": "c59f_6eee654ef1c57b43e95a031f32b208f4.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "geography",
+            "circumnavigation",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Canadian Flag",
+            "costumes": [
+                {
+                    "costumeName": "Canadian Flag",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c59f_6eee654ef1c57b43e95a031f32b208f4.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 30,
+                    "rotationCenterY": 30
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Zebra",
+        "md5": "c41_9ffabdea30995febeaa9052c40154881.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Zebra",
+            "costumes": [
+                {
+                    "costumeName": "Zebra 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c41_9ffabdea30995febeaa9052c40154881.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 35,
+                    "rotationCenterY": 33
+                },
+                {
+                    "costumeName": "Zebra 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c42_805864d41ad6187399a686649bf42a9f.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 35,
+                    "rotationCenterY": 34
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Fox",
+        "md5": "c43_518565c120005b5a4006c9e8ee51feae.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Fox",
+            "costumes": [
+                {
+                    "costumeName": "Fox 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c43_518565c120005b5a4006c9e8ee51feae.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 33,
+                    "rotationCenterY": 27
+                },
+                {
+                    "costumeName": "Fox 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c44_d77ab5f101c85beb4fb1e23f27512d72.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 33,
+                    "rotationCenterY": 27
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Lion",
+        "md5": "c45_fb11ea2b44a2233d1946a55b5608610c.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Lion",
+            "costumes": [
+                {
+                    "costumeName": "Lion 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c45_fb11ea2b44a2233d1946a55b5608610c.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 35,
+                    "rotationCenterY": 38
+                },
+                {
+                    "costumeName": "Lion 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c46_879723d221a985de41bc0949b86b9d29.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 34,
+                    "rotationCenterY": 39
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Cheetah",
+        "md5": "c47_2b6c7ffd281f8c5a18ba2223528f75f7.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Cheetah",
+            "costumes": [
+                {
+                    "costumeName": "Cheetah 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c47_2b6c7ffd281f8c5a18ba2223528f75f7.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 38,
+                    "rotationCenterY": 31
+                },
+                {
+                    "costumeName": "Cheetah 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c48_bbf68ee33feb4141f5c83ad89d25318c.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 38,
+                    "rotationCenterY": 31
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Antelope",
+        "md5": "c49_2835a7d71d5f6ef4a0846766ce312f0e.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "biology",
+            "running",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Antelope",
+            "costumes": [
+                {
+                    "costumeName": "Antelope 1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c49_2835a7d71d5f6ef4a0846766ce312f0e.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 32,
+                    "rotationCenterY": 39
+                },
+                {
+                    "costumeName": "Antelope 2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c4a_c5153998e785b103bf9d19350a42a701.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 33,
+                    "rotationCenterY": 40
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Pencil",
+        "md5": "c31_07efc90d8b4eb241deed8e436988febb.svg",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "arts",
+            "drawing",
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Pencil",
+            "costumes": [
+                {
+                    "costumeName": "Pencil",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c31_07efc90d8b4eb241deed8e436988febb.svg",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 25,
+                    "rotationCenterY": 21
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
         "name": "Light Bulbs",
-        "md5": "costume21-f1f48096cca9b87f7bf8d67dc188cadd.png",
+        "md5": "c21_9c0ef45f9216c2fc7558b1a493c8a13a.png",
         "addons": 1,
         "type": "sprite",
         "tags": [
@@ -21,24 +941,24 @@
                 {
                     "costumeName": "Light Bulb 1",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "costume21-f1f48096cca9b87f7bf8d67dc188cadd.png",
+                    "baseLayerMD5": "c21_9c0ef45f9216c2fc7558b1a493c8a13a.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 63,
-                    "rotationCenterY": 85
+                    "rotationCenterX": 76,
+                    "rotationCenterY": 102
                 },
                 {
                     "costumeName": "Light Bulb 2",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "costume22-e6e538530dc2fa3b48acd97205467960.png",
+                    "baseLayerMD5": "c22_ae76edf33d7fb6ba7b4ea0f94d135ae6.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 63,
-                    "rotationCenterY": 85
+                    "rotationCenterX": 76,
+                    "rotationCenterY": 102
                 }
             ],
             "currentCostumeIndex": 0,
             "scratchX": 0,
             "scratchY": -100,
-            "scale": 1.206,
+            "scale": 0.4,
             "direction": 90,
             "rotationStyle": "normal",
             "isDraggable": false,
@@ -49,7 +969,7 @@
     },
     {
         "name": "Battery",
-        "md5": "costume23-4137c224307b60908b191a65ce38def4.png",
+        "md5": "c23_e88ab61ee2f763c8bfae549d98e1cdcc.png",
         "addons": 1,
         "type": "sprite",
         "tags": [
@@ -69,16 +989,16 @@
                 {
                     "costumeName": "Battery",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "costume23-4137c224307b60908b191a65ce38def4.png",
+                    "baseLayerMD5": "c23_e88ab61ee2f763c8bfae549d98e1cdcc.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 229,
-                    "rotationCenterY": 50
+                    "rotationCenterX": 240,
+                    "rotationCenterY": 102
                 }
             ],
             "currentCostumeIndex": 0,
             "scratchX": 0,
             "scratchY": -100,
-            "scale": 1.05,
+            "scale": 0.4,
             "direction": 90,
             "rotationStyle": "normal",
             "isDraggable": false,
@@ -89,7 +1009,7 @@
     },
     {
         "name": "Resistor",
-        "md5": "costume24-4f91abfeed61ac019a2f373119a2f5f9.png",
+        "md5": "c24_ce185d2b570db4f64a53f31a6978e2cb.png",
         "addons": 1,
         "type": "sprite",
         "tags": [
@@ -109,16 +1029,16 @@
                 {
                     "costumeName": "Resistor",
                     "baseLayerID": -1,
-                    "baseLayerMD5": "costume24-4f91abfeed61ac019a2f373119a2f5f9.png",
+                    "baseLayerMD5": "c24_ce185d2b570db4f64a53f31a6978e2cb.png",
                     "bitmapResolution": 1,
-                    "rotationCenterX": 61,
-                    "rotationCenterY": 18
+                    "rotationCenterX": 73,
+                    "rotationCenterY": 21
                 }
             ],
             "currentCostumeIndex": 0,
             "scratchX": 0,
             "scratchY": -100,
-            "scale": 1.167,
+            "scale": 0.4,
             "direction": 90,
             "rotationStyle": "normal",
             "isDraggable": false,
