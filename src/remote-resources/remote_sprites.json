@@ -1,5 +1,81 @@
 [
     {
+        "name": "Mammoth College Blackhole",
+        "md5": "c61_175b9ab867286e44f1e878a5b9ef8279.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Mammoth College Blackhole",
+            "costumes": [
+                {
+                    "costumeName": "Mammoth College Blackhole",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c61_175b9ab867286e44f1e878a5b9ef8279.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 408,
+                    "rotationCenterY": 360
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Mammoth College Protagonist",
+        "md5": "c62_a2643f632638fdafc7dde426992a373f.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Mammoth College Protagonist",
+            "costumes": [
+                {
+                    "costumeName": "Mammoth College Protagonist",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c62_a2643f632638fdafc7dde426992a373f.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 302,
+                    "rotationCenterY": 360
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
         "name": "China",
         "md5": "c51_79bf8ca08796b36a846147fcb9486fd5.svg",
         "addons": 1,

@@ -1,5 +1,20 @@
 [
     {
+        "name": "Mammoth College Tree",
+        "md5": "s6_3a0a76a249ed5518b867c771abdddfe5.jpeg",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            480,
+            360,
+            1
+        ]
+    },
+    {
         "name": "Circumnavigation",
         "md5": "s5_4ae407a1e563ebf4deeb85d6fb93f696.svg",
         "addons": 1,

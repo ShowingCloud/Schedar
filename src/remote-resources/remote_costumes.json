@@ -1,6 +1,34 @@
 [
     {
         "info": [
+            916,
+            720
+        ],
+        "md5": "c61_175b9ab867286e44f1e878a5b9ef8279.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Mammoth College Blackhole",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
+            605,
+            720
+        ],
+        "md5": "c62_a2643f632638fdafc7dde426992a373f.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Mammoth College Protagonist",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
             85,
             71
         ],
