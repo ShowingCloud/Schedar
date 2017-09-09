@@ -688,7 +688,7 @@
         }
     },
     {
-        "name": "Fox",
+        "name": "Foxes",
         "md5": "c43_518565c120005b5a4006c9e8ee51feae.svg",
         "addons": 1,
         "type": "sprite",
@@ -704,10 +704,10 @@
             0
         ],
         "json": {
-            "objName": "Fox",
+            "objName": "Foxes",
             "costumes": [
                 {
-                    "costumeName": "Fox 1",
+                    "costumeName": "Foxes 1",
                     "baseLayerID": -1,
                     "baseLayerMD5": "c43_518565c120005b5a4006c9e8ee51feae.svg",
                     "bitmapResolution": 1,
@@ -715,7 +715,7 @@
                     "rotationCenterY": 27
                 },
                 {
-                    "costumeName": "Fox 2",
+                    "costumeName": "Foxes 2",
                     "baseLayerID": -1,
                     "baseLayerMD5": "c44_d77ab5f101c85beb4fb1e23f27512d72.svg",
                     "bitmapResolution": 1,
