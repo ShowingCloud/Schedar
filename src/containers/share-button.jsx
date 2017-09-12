@@ -12,14 +12,18 @@ import {
 class ShareButton extends React.Component {
     constructor (props) {
         super(props);
+
+        this.state = {
+            qrcode: null
+        };
     }
     render () {
         const {
-            imgSrc,
+            className,
             imgClassName,
+            imgSrc,
             onShareProject,
             shareProjectVisible,
-            className,
             ...props
         } = this.props;
 
@@ -46,8 +50,9 @@ class ShareButton extends React.Component {
 }
 
 ShareButton.propTypes = {
-    imgSrc: PropTypes.string.isRequired,
+    className: PropTypes.string.isRequired,
     imgClassName: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string.isRequired,
     onShareProject: PropTypes.func.isRequired,
     shareProjectVisible: PropTypes.bool
 };

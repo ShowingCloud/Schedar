@@ -34,10 +34,10 @@ class SaveButton extends React.Component {
     }
     render () {
         const {
-            saveProjectSb3, // eslint-disable-line no-unused-vars
-            imgSrc,
-            imgClassName,
             className,
+            imgClassName,
+            imgSrc,
+            saveProjectSb3, // eslint-disable-line no-unused-vars
             ...props
         } = this.props;
         return (
@@ -60,9 +60,10 @@ class SaveButton extends React.Component {
 }
 
 SaveButton.propTypes = {
-    saveProjectSb3: PropTypes.func.isRequired,
+    className: PropTypes.string.isRequired,
+    imgClassName: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,
-    imgClassName: PropTypes.string.isRequired
+    saveProjectSb3: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({

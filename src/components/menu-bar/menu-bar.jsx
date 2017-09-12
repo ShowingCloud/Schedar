@@ -27,9 +27,21 @@ const MenuBar = function MenuBar () {
                 />
             </div>
             <LanguageSelector className={styles.menuItem} />
-            <SaveButton imgSrc={saveButtonIcon} imgClassName={styles.iconMenuItem} className={styles.menuItem} />
-            <LoadButton imgSrc={loadButtonIcon} imgClassName={styles.iconMenuItem} className={styles.menuItem} />
-            <ShareButton imgSrc={shareButtonIcon} imgClassName={styles.iconMenuItem} className={styles.menuItem} />
+            <SaveButton
+                className={styles.menuItem}
+                imgClassName={styles.iconMenuItem}
+                imgSrc={saveButtonIcon}
+            />
+            <LoadButton
+                className={styles.menuItem}
+                imgClassName={styles.iconMenuItem}
+                imgSrc={loadButtonIcon}
+            />
+            <ShareButton
+                className={styles.menuItem}
+                imgClassName={styles.iconMenuItem}
+                imgSrc={shareButtonIcon}
+            />
         </Box>
     );
 };

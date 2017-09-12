@@ -35,11 +35,11 @@ const LoadButtonComponent = ({
 
 LoadButtonComponent.propTypes = {
     className: PropTypes.string,
+    imgClassName: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string.isRequired,
     inputRef: PropTypes.func.isRequired,
     onChange: PropTypes.func.isRequired,
-    onClick: PropTypes.func.isRequired,
-    imgSrc: PropTypes.string.isRequired,
-    imgClassName: PropTypes.string.isRequired
+    onClick: PropTypes.func.isRequired
 };
 LoadButtonComponent.defaultProps = {
 };
