@@ -1,21 +1,21 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import log from '../../lib/log';
 import QRCode from 'qrcode';
 
 class QRCodeImage extends React.Component {
     componentDidMount () {
         this.load();
     }
-    componentDidUpdate (prevProps) {
+    componentDidUpdate () {
         this.load();
     }
     load () {
         const content = this.props.content;
-        var image = this.image;
 
-        QRCode.toDataURL(content, function (err, url) {
-            if (err) console.error(err);
-            image.src = url;
+        QRCode.toDataURL(content, (err, url) => {
+            if (err) log.error(err);
+            else this.image.src = url;
         });
     }
     render () {
