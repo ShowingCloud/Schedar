@@ -16,8 +16,9 @@ class CostumeLibrary extends React.PureComponent {
         ]);
 
         xhr({
-            uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_costumes.json`,
-            json: true
+            uri: `https://static.mmcode.org/remote_costumes.json`,
+            json: true,
+            useXDR: true
         }, (err, res, body) => {
             if (!err && body) {
                 this.setState({costumes: body.concat(costumeLibraryContent)});

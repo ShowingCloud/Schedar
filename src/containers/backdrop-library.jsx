@@ -16,8 +16,9 @@ class BackdropLibrary extends React.Component {
         ]);
 
         xhr({
-            uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_backdrops.json`,
-            json: true
+            uri: `https://static.mmcode.org/remote_backdrops.json`,
+            json: true,
+            useXDR: true
         }, (err, res, body) => {
             if (!err && body) {
                 this.setState({backdrops: body.concat(backdropLibraryContent)});

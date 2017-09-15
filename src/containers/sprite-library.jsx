@@ -21,8 +21,9 @@ class SpriteLibrary extends React.PureComponent {
         ]);
 
         xhr({
-            uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_sprites.json`,
-            json: true
+            uri: `https://static.mmcode.org/remote_sprites.json`,
+            json: true,
+            useXDR: true
         }, (err, res, body) => {
             if (!err && body) {
                 this.setState({sprites: body.concat(spriteLibraryContent)});

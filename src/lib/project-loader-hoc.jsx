@@ -10,7 +10,7 @@ class ProjectLoaderConstructor {
         this.loadEmptyProject(body => {
             this.emptyProject = body;
         });
-	}
+    }
 
     get DEFAULT_PROJECT_DATA () {
         return this.emptyProject;
@@ -28,8 +28,9 @@ class ProjectLoaderConstructor {
     loadEmptyProject (callback) {
         callback = callback || (err => log.error(err));
         xhr({
-            uri: `https://elephant-data.oss-cn-shanghai.aliyuncs.com/remote_empty_project.json`,
-            json: true
+            uri: `https://static.mmcode.org/remote_empty_project.json`,
+            json: true,
+            useXDR: true
         }, (err, res, body) => {
             if (!err && body) {
                 callback(body);
