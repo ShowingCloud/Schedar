@@ -3,6 +3,7 @@ import React from 'react';
 import Box from '../box/box.jsx';
 import Modal from '../modal/modal.jsx';
 import styles from './share-modal.css';
+import QRCodeImage from '../qrcode-image/qrcode-image.jsx';
 
 const ShareModal = props => (
     <Modal
@@ -12,6 +13,12 @@ const ShareModal = props => (
         onRequestClose={props.onCancel}
     >
         <Box className={styles.body}>
+            <QRCodeImage
+                className={styles.qrcodeImage}
+                content="http://www.google.com"
+                height={550}
+                width={550}
+            />
         </Box>
     </Modal>
 );
