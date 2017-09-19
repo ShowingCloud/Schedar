@@ -12,7 +12,7 @@
     "lint": "eslint . --ext .js,.jsx",
     "start": "npm run i18n:msgs && webpack-dev-server",
     "unit-test": "jest test/unit",
-    "integration-test": "npm run build && jest test/integration",
+    "integration-test": "npm run build && jest --runInBand test/integration",
     "test": "npm run lint && npm run unit-test && npm run integration-test",
     "watch": "webpack --progress --colors --watch"
   },
@@ -67,7 +67,7 @@
     "prop-types": "^15.5.10",
     "qrcode": "latest",
     "react": "15.6.1",
-    "react-contextmenu": "2.6.5",
+    "react-contextmenu": "2.7.0",
     "react-dom": "15.6.1",
     "react-draggable": "3.0.3",
     "react-intl": "2.4.0",
