@@ -22,7 +22,7 @@ class Storage extends ScratchStorage {
         );
         this.addWebSource(
             [this.AssetType.ImageVector, this.AssetType.ImageBitmap, this.AssetType.Sound],
-            asset => `${ELEPHANT_DATA_SERVER}/${asset.assetId}.${asset.dataFormat}`
+            asset => `${ELEPHANT_DATA_SERVER}/${asset.assetId}.${asset.dataFormat}?origin=${window.location.origin}`
         );
         this.addWebSource(
             [this.AssetType.ImageVector, this.AssetType.ImageBitmap, this.AssetType.Sound],

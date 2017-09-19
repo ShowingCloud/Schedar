@@ -28,7 +28,7 @@ class ProjectLoaderConstructor {
     loadEmptyProject (callback) {
         callback = callback || (err => log.error(err));
         xhr({
-            uri: `https://static.mmcode.org/remote_empty_project.json`,
+            uri: `https://static.mmcode.org/remote_empty_project.json?origin=${window.location.origin}`,
             json: true,
             useXDR: true
         }, (err, res, body) => {
