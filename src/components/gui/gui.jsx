@@ -30,7 +30,7 @@ const addExtensionMessage = (
     />
 );
 
-import watermarkIcon from './watermark.svg';
+import mammothLogo from '../menu-bar/mammoth-logo.svg';
 
 const GUIComponent = props => {
     const {
@@ -92,8 +92,8 @@ const GUIComponent = props => {
                                         vm={vm}
                                     />
                                     <img
-                                        className={styles.watermarkIcon}
-                                        src={watermarkIcon}
+                                        className={styles.mammothLogo}
+                                        src={mammothLogo}
                                     />
                                 </Box>
                                 <Box className={styles.extensionButtonContainer}>
