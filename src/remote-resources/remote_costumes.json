@@ -1,6 +1,80 @@
 [
     {
         "info": [
+            73,
+            90
+        ],
+        "md5": "c71_d0c75eff16a32d49d68cc80233b545d4.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Mammoth College Xiao Jin F.1",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Xiaojin"
+        ]
+    },
+    {
+        "info": [
+            73,
+            90
+        ],
+        "md5": "c72_a2814ef8bf8a07700e2ed5265934bd23.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Mammoth College Xiao Jin F.2",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Xiaojin"
+        ]
+    },
+    {
+        "info": [
+            55,
+            90
+        ],
+        "md5": "c74_a82ec8b31f4f178460bb68ff0ba592c4.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Mammoth College Xiao Jin R.1",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Xiaojin"
+        ]
+    },
+    {
+        "info": [
+            58,
+            90
+        ],
+        "md5": "c75_dfce3799dd2f6ebd8c1fa7c634c7c50f.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Mammoth College Xiao Jin R.2",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Xiaojin"
+        ]
+    },
+    {
+        "info": [
+            131,
+            129
+        ],
+        "md5": "c73_68425e62669523363a8f6accb46df6c3.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Mammoth College Cute",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ]
+    },
+    {
+        "info": [
             916,
             720
         ],
@@ -24,7 +98,8 @@
         "name": "Mammoth College Protagonist",
         "tags": [
             "Mammoth",
-            "bitmap"
+            "bitmap",
+            "Xiaojin"
         ]
     },
     {

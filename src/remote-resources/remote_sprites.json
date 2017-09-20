@@ -1,5 +1,137 @@
 [
     {
+        "name": "Mammoth College Xiao Jin Front",
+        "md5": "c71_d0c75eff16a32d49d68cc80233b545d4.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Xiaojin"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Mammoth College Xiao Jin Front",
+            "costumes": [
+                {
+                    "costumeName": "Mammoth College Xiao Jin F.1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c71_d0c75eff16a32d49d68cc80233b545d4.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 36,
+                    "rotationCenterY": 45
+                },
+                {
+                    "costumeName": "Mammoth College Xiao Jin F.2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c72_a2814ef8bf8a07700e2ed5265934bd23.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 36,
+                    "rotationCenterY": 45
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Mammoth College Xiao Jin Right",
+        "md5": "c74_a82ec8b31f4f178460bb68ff0ba592c4.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Xiaojin"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Mammoth College Xiao Jin Right",
+            "costumes": [
+                {
+                    "costumeName": "Mammoth College Xiao Jin R.1",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c74_a82ec8b31f4f178460bb68ff0ba592c4.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 27,
+                    "rotationCenterY": 45
+                },
+                {
+                    "costumeName": "Mammoth College Xiao Jin R.2",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c75_dfce3799dd2f6ebd8c1fa7c634c7c50f.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 29,
+                    "rotationCenterY": 45
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Mammoth College Cute",
+        "md5": "c73_68425e62669523363a8f6accb46df6c3.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "objName": "Mammoth College Cute",
+            "costumes": [
+                {
+                    "costumeName": "Mammoth College Cute",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c73_68425e62669523363a8f6accb46df6c3.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 65,
+                    "rotationCenterY": 64
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
         "name": "Mammoth College Blackhole",
         "md5": "c61_175b9ab867286e44f1e878a5b9ef8279.png",
         "addons": 1,

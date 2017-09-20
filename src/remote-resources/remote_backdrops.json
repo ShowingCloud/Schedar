@@ -1,5 +1,35 @@
 [
     {
+        "name": "Mammoth College Terrain 1",
+        "md5": "s71_6b4c0caab71c81343e9b4f71859caee3.jpeg",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            480,
+            360,
+            1
+        ]
+    },
+    {
+        "name": "Mammoth College Terrain 2",
+        "md5": "s72_5e2ab72a36fa53c7b98801806b34c50e.jpeg",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "Mammoth",
+            "bitmap"
+        ],
+        "info": [
+            480,
+            360,
+            1
+        ]
+    },
+    {
         "name": "Mammoth College Tree",
         "md5": "s6_3a0a76a249ed5518b867c771abdddfe5.jpeg",
         "addons": 1,
