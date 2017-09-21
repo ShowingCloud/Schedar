@@ -4,7 +4,7 @@ import React from 'react';
 import Box from '../box/box.jsx';
 import LoadButton from '../../containers/load-button.jsx';
 import SaveButton from '../../containers/save-button.jsx';
-import ShareButton from '../../containers/share-button.jsx';
+import ShareButtonComponent from '../share-button/share-button.jsx';
 import LanguageSelector from '../../containers/language-selector.jsx';
 
 import styles from './menu-bar.css';
@@ -37,7 +37,7 @@ const MenuBar = function MenuBar () {
                 imgClassName={styles.iconMenuItem}
                 imgSrc={loadButtonIcon}
             />
-            <ShareButton
+            <ShareButtonComponent
                 className={styles.menuItem}
                 imgClassName={styles.iconMenuItem}
                 imgSrc={shareButtonIcon}
