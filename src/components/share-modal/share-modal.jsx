@@ -1,17 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import {connect} from 'react-redux';
 
 import Box from '../box/box.jsx';
 import Modal from '../modal/modal.jsx';
 import styles from './share-modal.css';
 import QRCodeImage from '../qrcode-image/qrcode-image.jsx';
 
-import {
-    closeShareProject
-} from '../../reducers/modals';
-
-const ShareModalComponent = props => (
+const ShareModal = props => (
     <Modal
         visible
         className={styles.modalContent}
@@ -29,21 +24,8 @@ const ShareModalComponent = props => (
     </Modal>
 );
 
-ShareModalComponent.propTypes = {
-    onClose: PropTypes.func
+ShareModal.propTypes = {
+    onClose: PropTypes.func.isRequired
 };
 
-const mapStateToProps = state => ({
-    visible: state.modals.shareProject
-});
-
-const mapDispatchToProps = dispatch => ({
-    onClose: () => {
-        dispatch(closeShareProject());
-    }
-});
-
-export default connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(ShareModalComponent);
+export default ShareModal;

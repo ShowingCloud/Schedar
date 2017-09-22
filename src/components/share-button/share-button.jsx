@@ -1,15 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import {connect} from 'react-redux';
 
 import ButtonComponent from '../button/button.jsx';
-import ShareModal from '../share-modal/share-modal.jsx';
+import ShareModal from '../../containers/share-modal.jsx';
 
-import {
-    openShareProject
-} from '../../reducers/modals';
-
-const ShareButtonComponent = props => {
+const ShareButton = props => {
     const {
         className,
         imgClassName,
@@ -40,7 +35,7 @@ const ShareButtonComponent = props => {
     );
 };
 
-ShareButtonComponent.propTypes = {
+ShareButton.propTypes = {
     className: PropTypes.string.isRequired,
     imgClassName: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,
@@ -48,17 +43,4 @@ ShareButtonComponent.propTypes = {
     shareProjectVisible: PropTypes.bool
 };
 
-const mapStateToProps = state => ({
-    shareProjectVisible: state.modals.shareProject
-});
-
-const mapDispatchToProps = dispatch => ({
-    onShareProject: () => {
-        dispatch(openShareProject());
-    }
-});
-
-export default connect(
-    mapStateToProps,
-    mapDispatchToProps
-)(ShareButtonComponent);
+export default ShareButton;
