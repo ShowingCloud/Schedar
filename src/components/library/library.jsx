@@ -1,6 +1,7 @@
 import bindAll from 'lodash.bindall';
 import PropTypes from 'prop-types';
 import React from 'react';
+import {connect} from 'react-redux';
 
 import LibraryItem from '../library-item/library-item.jsx';
 import ModalComponent from '../modal/modal.jsx';
@@ -42,6 +43,11 @@ class LibraryComponent extends React.Component {
         return this.props.data.filter(dataItem =>
             dataItem.name.toLowerCase().indexOf(this.state.filterQuery.toLowerCase()) !== -1);
     }
+    getTranslation (item) {
+        return (('name_i18n' in item) && (this.props.locale in item.name_i18n)) ?
+            item.name_i18n[this.props.locale] :
+            item.name
+    }
     render () {
         return (
             <ModalComponent
@@ -65,7 +71,7 @@ class LibraryComponent extends React.Component {
                                 iconURL={scratchURL}
                                 id={index}
                                 key={`item_${index}`}
-                                name={dataItem.name}
+                                name={this.getTranslation(dataItem)}
                                 onMouseEnter={this.handleMouseEnter}
                                 onMouseLeave={this.handleMouseLeave}
                                 onSelect={this.handleSelect}
@@ -97,4 +103,11 @@ LibraryComponent.propTypes = {
     title: PropTypes.string.isRequired
 };
 
-export default LibraryComponent;
+const mapStateToProps = state => ({
+    locale: state.intl.locale
+});
+
+export default connect(
+    mapStateToProps,
+    () => ({}) // omit dispatch prop
+)(LibraryComponent);
