@@ -46,7 +46,7 @@ class LibraryComponent extends React.Component {
     getTranslation (item) {
         return (('name_i18n' in item) && (this.props.locale in item.name_i18n)) ?
             item.name_i18n[this.props.locale] :
-            item.name
+            item.name;
     }
     render () {
         return (
@@ -96,6 +96,7 @@ LibraryComponent.propTypes = {
         })
         /* eslint-enable react/no-unused-prop-types, lines-around-comment */
     ),
+    locale: PropTypes.string,
     onItemMouseEnter: PropTypes.func,
     onItemMouseLeave: PropTypes.func,
     onItemSelected: PropTypes.func,

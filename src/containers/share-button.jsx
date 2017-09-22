@@ -4,7 +4,7 @@ import {
     openShareProject
 } from '../reducers/modals';
 
-import ShareButtonComponent from '../components/share-button/share-button.jsx'
+import ShareButtonComponent from '../components/share-button/share-button.jsx';
 
 const mapStateToProps = state => ({
     shareProjectVisible: state.modals.shareProject

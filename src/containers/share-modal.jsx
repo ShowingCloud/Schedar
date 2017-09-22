@@ -4,7 +4,7 @@ import {
     closeShareProject
 } from '../reducers/modals';
 
-import ShareModalComponent from '../components/share-modal/share-modal.jsx'
+import ShareModalComponent from '../components/share-modal/share-modal.jsx';
 
 const mapStateToProps = state => ({
     visible: state.modals.shareProject
