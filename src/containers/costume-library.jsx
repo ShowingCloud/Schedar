@@ -16,7 +16,7 @@ class CostumeLibrary extends React.PureComponent {
         ]);
 
         xhr({
-            uri: `https://static.mmcode.org/remote_costumes.json?origin=${window.location.origin}`,
+            uri: `https://static.mmcode.org/remote_costumes.json?origin=${encodeURIComponent(window.location.origin)}`,
             json: true,
             useXDR: true
         }, (err, res, body) => {
