@@ -1,6 +1,96 @@
 [
     {
         "info": [
+            80,
+            87
+        ],
+        "md5": "c81_ecfe5f6ba4bd73148703b334f01660df.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Assassin Sorting Ceremony Unselected",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ]
+    },
+    {
+        "info": [
+            80,
+            87
+        ],
+        "md5": "c82_5503c6a40ad9214102588ada04fe2504.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Assassin Sorting Ceremony Selected",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ]
+    },
+    {
+        "info": [
+            80,
+            87
+        ],
+        "md5": "c83_603b94d52be904a7a4e39fe2f7b38e7e.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Hammer Sorting Ceremony Unselected",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ]
+    },
+    {
+        "info": [
+            80,
+            87
+        ],
+        "md5": "c84_3fa29310f88a42d17a128078d8c27a44.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Hammer Sorting Ceremony Selected",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ]
+    },
+    {
+        "info": [
+            80,
+            87
+        ],
+        "md5": "c85_354d4ed6067481be68c2a3b58d976b1c.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Sword Sorting Ceremony Unselected",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ]
+    },
+    {
+        "info": [
+            80,
+            87
+        ],
+        "md5": "c86_71e707dd963355912d1644d5b032697a.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Sword Sorting Ceremony Selected",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ]
+    },
+    {
+        "info": [
             73,
             90
         ],

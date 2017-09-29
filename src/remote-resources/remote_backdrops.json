@@ -1,5 +1,21 @@
 [
     {
+        "name": "Sorting Ceremony Mammoth College",
+        "md5": "s8_b03c48f4b8acdc2e4aa53a7267f2a3e3.jpg",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ],
+        "info": [
+            480,
+            360,
+            1
+        ]
+    },
+    {
         "name": "Mammoth College Terrain 1",
         "md5": "s71_6b4c0caab71c81343e9b4f71859caee3.jpeg",
         "addons": 1,

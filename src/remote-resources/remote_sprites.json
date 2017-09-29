@@ -1,5 +1,146 @@
 [
     {
+        "name": "Assassin Sorting Ceremony",
+        "md5": "c81_ecfe5f6ba4bd73148703b334f01660df.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Assassin Sorting Ceremony",
+            "costumes": [
+                {
+                    "costumeName": "Assassin Sorting Ceremony Unselected",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c81_ecfe5f6ba4bd73148703b334f01660df.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 40,
+                    "rotationCenterY": 43
+                },
+                {
+                    "costumeName": "Assassin Sorting Ceremony Selected",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c82_5503c6a40ad9214102588ada04fe2504.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 40,
+                    "rotationCenterY": 43
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Hammer Sorting Ceremony",
+        "md5": "c83_603b94d52be904a7a4e39fe2f7b38e7e.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Hammer Sorting Ceremony",
+            "costumes": [
+                {
+                    "costumeName": "Hammer Sorting Ceremony Unselected",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c83_603b94d52be904a7a4e39fe2f7b38e7e.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 40,
+                    "rotationCenterY": 43
+                },
+                {
+                    "costumeName": "Hammer Sorting Ceremony Selected",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c84_3fa29310f88a42d17a128078d8c27a44.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 40,
+                    "rotationCenterY": 43
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
+        "name": "Sword Sorting Ceremony",
+        "md5": "c85_354d4ed6067481be68c2a3b58d976b1c.png",
+        "addons": 1,
+        "type": "sprite",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Sorting"
+        ],
+        "info": [
+            0,
+            2,
+            0
+        ],
+        "json": {
+            "objName": "Sword Sorting Ceremony",
+            "costumes": [
+                {
+                    "costumeName": "Sword Sorting Ceremony Unselected",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c85_354d4ed6067481be68c2a3b58d976b1c.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 40,
+                    "rotationCenterY": 43
+                },
+                {
+                    "costumeName": "Sword Sorting Ceremony Selected",
+                    "baseLayerID": -1,
+                    "baseLayerMD5": "c86_71e707dd963355912d1644d5b032697a.png",
+                    "bitmapResolution": 1,
+                    "rotationCenterX": 40,
+                    "rotationCenterY": 43
+                }
+            ],
+            "currentCostumeIndex": 0,
+            "scratchX": 0,
+            "scratchY": -100,
+            "scale": 1,
+            "direction": 90,
+            "rotationStyle": "normal",
+            "isDraggable": false,
+            "indexInLibrary": 100000,
+            "visible": true,
+            "spriteInfo": {}
+        }
+    },
+    {
         "name": "Mammoth College Xiao Jin Front",
         "md5": "c71_d0c75eff16a32d49d68cc80233b545d4.png",
         "addons": 1,
