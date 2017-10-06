@@ -41,7 +41,12 @@ class LibraryItem extends React.PureComponent {
                         />
                     </Box>
                 </Box>
-                <span className={styles.libraryItemName}>{this.props.name}</span>
+                <span
+                    className={styles.libraryItemName}
+                    data-tip={this.props.name}
+                >
+                    {this.props.name}
+                </span>
             </Box>
         );
     }

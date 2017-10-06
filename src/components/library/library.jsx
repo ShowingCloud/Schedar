@@ -2,6 +2,7 @@ import bindAll from 'lodash.bindall';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {connect} from 'react-redux';
+import ReactTooltip from 'react-tooltip';
 
 import LibraryItem from '../library-item/library-item.jsx';
 import ModalComponent from '../modal/modal.jsx';
@@ -79,6 +80,7 @@ class LibraryComponent extends React.Component {
                         );
                     })}
                 </div>
+                <ReactTooltip />
             </ModalComponent>
         );
     }
