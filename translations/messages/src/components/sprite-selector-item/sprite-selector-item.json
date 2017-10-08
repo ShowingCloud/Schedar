@@ -1,0 +1,7 @@
+[
+  {
+    "id": "gui.spriteSelectorItem.contextMenuDelete",
+    "description": "Menu item to delete in the right click menu",
+    "defaultMessage": "delete"
+  }
+]

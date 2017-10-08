@@ -1,0 +1,102 @@
+{
+  "gui.gui.addExtension": {
+    "message": "Extensions",
+    "description": "Button to add an extension in the target pane"
+  },
+  "menuBar.languageSelector": {
+    "message": "Language",
+    "description": "Label of Langauge Selector"
+  },
+  "gui.soundEditor.sound": {
+    "message": "Sound",
+    "description": "Label for the name of the sound"
+  },
+  "gui.soundEditor.play": {
+    "message": "Play",
+    "description": "Title of the button to start playing the sound"
+  },
+  "gui.soundEditor.stop": {
+    "message": "Stop",
+    "description": "Title of the button to stop the sound"
+  },
+  "gui.soundEditor.trim": {
+    "message": "Trim",
+    "description": "Title of the button to start trimminging the sound"
+  },
+  "gui.soundEditor.save": {
+    "message": "Save",
+    "description": "Title of the button to save trimmed sound"
+  },
+  "gui.soundEditor.undo": {
+    "message": "Undo",
+    "description": "Title of the button to undo"
+  },
+  "gui.soundEditor.redo": {
+    "message": "Redo",
+    "description": "Title of the button to redo"
+  },
+  "gui.soundEditor.faster": {
+    "message": "Faster",
+    "description": "Title of the button to apply the faster effect"
+  },
+  "gui.soundEditor.slower": {
+    "message": "Slower",
+    "description": "Title of the button to apply the slower effect"
+  },
+  "gui.soundEditor.echo": {
+    "message": "Echo",
+    "description": "Title of the button to apply the echo effect"
+  },
+  "gui.soundEditor.robot": {
+    "message": "Robot",
+    "description": "Title of the button to apply the robot effect"
+  },
+  "gui.soundEditor.louder": {
+    "message": "Louder",
+    "description": "Title of the button to apply the louder effect"
+  },
+  "gui.soundEditor.softer": {
+    "message": "Softer",
+    "description": "Title of the button to apply thr.softer effect"
+  },
+  "gui.soundEditor.reverse": {
+    "message": "Reverse",
+    "description": "Title of the button to apply the reverse effect"
+  },
+  "gui.spriteSelectorItem.contextMenuDelete": {
+    "message": "delete",
+    "description": "Menu item to delete in the right click menu"
+  },
+  "gui.spriteSelector.addSprite": {
+    "message": "Add Sprite",
+    "description": "Button to add a sprite in the target pane"
+  },
+  "gui.stageSelector.targetPaneAddBackdrop": {
+    "message": "Add Backdrop",
+    "description": "Button to add a backdrop in the target pane"
+  },
+  "gui.stageSelector.backdrops": {
+    "message": "Backdrops",
+    "description": "Label for the backdrops in the stage selector"
+  },
+  "gui.turboMode.active": {
+    "message": "Turbo Mode",
+    "description": "Label indicating turbo mode is active"
+  },
+  "gui.costumeTab.addBackdrop": {
+    "message": "Add Backdrop",
+    "description": "Button to add a backdrop in the editor tab"
+  },
+  "gui.costumeTab.addCostume": {
+    "message": "Add Costume",
+    "description": "Button to add a costume in the editor tab"
+  },
+  "gui.soundTab.recordSound": {
+    "message": "Record Sound",
+    "description": "Button to record a sound in the editor tab"
+  },
+  "gui.soundTab.addSound": {
+    "message": "Add Sound",
+    "description": "Button to add a sound in the editor tab"
+  }
+}
