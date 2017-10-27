@@ -1,5 +1,21 @@
 [
     {
+        "name": "Classroom Mammoth College",
+        "md5": "s9_0723571c4cfbddc7c5f9f35be5f3726d.jpg",
+        "addons": 1,
+        "type": "backdrop",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ],
+        "info": [
+            480,
+            360,
+            1
+        ]
+    },
+    {
         "name": "Sorting Ceremony Mammoth College",
         "md5": "s8_b03c48f4b8acdc2e4aa53a7267f2a3e3.jpg",
         "addons": 1,

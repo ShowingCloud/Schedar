@@ -1,6 +1,126 @@
 [
     {
         "info": [
+            60,
+            60
+        ],
+        "md5": "c91_843f8b33de2c444fc5ea2bb5729e42de.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Start Button On",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c92_2a5680949615e32cc463410f943f864c.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Start Button Off",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c93_daedaab4324833eee85ed87b4ede6d0f.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Reset Button On",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
+            60,
+            60
+        ],
+        "md5": "c94_d4b4202bf8d2796e61a10fd9ca4405c0.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Reset Button Off",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
+            66,
+            33
+        ],
+        "md5": "c95_08dc01e9d6ce6b9b39eeed79be6b07d6.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "King's Point",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
+            82,
+            39
+        ],
+        "md5": "c96_a49c7b5c680889c35a3219301aad0875.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Cookie's Point",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
+            140,
+            90
+        ],
+        "md5": "c97_b243b703e6b3b981f2bfb812c1d57181.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Cookie Running 1",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
+            140,
+            90
+        ],
+        "md5": "c98_20f0c3fcc11c62eadec4af1814668502.png",
+        "addons": 1,
+        "type": "costume",
+        "name": "Cookie Running 2",
+        "tags": [
+            "Mammoth",
+            "bitmap",
+            "Classroom"
+        ]
+    },
+    {
+        "info": [
             80,
             87
         ],
@@ -97,7 +217,7 @@
         "md5": "c71_d0c75eff16a32d49d68cc80233b545d4.png",
         "addons": 1,
         "type": "costume",
-        "name": "Mammoth College Xiao Jin F.1",
+        "name": "Mammoth College King F.1",
         "tags": [
             "Mammoth",
             "bitmap",
@@ -112,7 +232,7 @@
         "md5": "c72_a2814ef8bf8a07700e2ed5265934bd23.png",
         "addons": 1,
         "type": "costume",
-        "name": "Mammoth College Xiao Jin F.2",
+        "name": "Mammoth College King F.2",
         "tags": [
             "Mammoth",
             "bitmap",
@@ -127,7 +247,7 @@
         "md5": "c74_a82ec8b31f4f178460bb68ff0ba592c4.png",
         "addons": 1,
         "type": "costume",
-        "name": "Mammoth College Xiao Jin R.1",
+        "name": "Mammoth College King R.1",
         "tags": [
             "Mammoth",
             "bitmap",
@@ -142,7 +262,7 @@
         "md5": "c75_dfce3799dd2f6ebd8c1fa7c634c7c50f.png",
         "addons": 1,
         "type": "costume",
-        "name": "Mammoth College Xiao Jin R.2",
+        "name": "Mammoth College King R.2",
         "tags": [
             "Mammoth",
             "bitmap",
